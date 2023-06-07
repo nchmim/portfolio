@@ -75,7 +75,6 @@ export default function MyApp() {
           <Link href="hello">CONTACT ME</Link>
         </div>
       </header>
-      <img src="../../public/images/logo.gif"/>
       <p className="text-white"></p>
       <p className="text-white">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam metus
