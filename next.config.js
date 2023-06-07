@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   output: 'export',
-  basePath: '/nchmim',
+  basePath: '/portfolio',
   experimental: {
     appDir: true,
   },
