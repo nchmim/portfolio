@@ -4,7 +4,7 @@ USER root
 
 # ---- apt-get installs & latest node ----
 RUN apt-get update \
-    && apt-get install -y curl npm git \
+    && apt-get install -y curl npm \
     && npm install -g n \
     && n lts
 

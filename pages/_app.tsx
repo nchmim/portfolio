@@ -10,6 +10,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <meta name="viewport" content="initial-scale=1, width=device-width" />
+        <link rel="shortcut icon" href="/nchlogo01 1.ico" />
       </Head>
       <ThemeProvider theme={theme}>
         <Component {...pageProps} />

@@ -10,6 +10,9 @@ module.exports = {
       zIndex: {
         '1301': 1301,
         // Add other z-index values as needed
+      },
+      fontFamily: {
+        'poppins': ['Poppins', 'sans-serif'],
       }
     }
   },
