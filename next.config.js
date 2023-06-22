@@ -5,8 +5,7 @@
 const nextConfig = {
   reactStrictMode: true,
   output: 'export',
-  // basePath: isProd ? '/portfolio' : '',
-  // assetPrefix: isProd ? '/portfolio/' : '',
+  // basePath: cha'/portfolio/' : '',
   experimental: {
     appDir: true,
   },

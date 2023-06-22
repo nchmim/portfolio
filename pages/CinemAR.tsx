@@ -261,18 +261,18 @@ export default function MyApp() {
                         <img className="w-full" src="/images/cinemar-hifi02.3.gif" alt="CinemAR" />
                     </div>
 
-                    
+
 
                     <div className='flex items-center justify-center my-10 md:my-20'>
-     <iframe
-    width="760"
-    height="515"
-    src="https://www.youtube.com/embed/qK0tlksnpQA"
-    title="YouTube video player"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowFullScreen // Add the allowFullScreen attribute
-  ></iframe>
-</div>
+                        <iframe
+                            width="760"
+                            height="515"
+                            src="https://www.youtube.com/embed/qK0tlksnpQA"
+                            title="YouTube video player"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowFullScreen // Add the allowFullScreen attribute
+                        ></iframe>
+                    </div>
 
 
                     <div className='py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
@@ -283,17 +283,17 @@ export default function MyApp() {
                     </div>
 
 
-               
+
 
                     <div className='py-4 md:pb-10 text-white text-l md:text-xl items-center w-full'>
                         <p className='font-bold'>  What I’ve learned from this project?</p>
                         <p className='my-4'>During this project, I had the opportunity to delve into various aspects of the application and explore ways to expand its
-                                usage beyond its initial scope. This involved brainstorming and implementing new features and functionalities.</p>
-                                <p className='my-4'>Engaging in this project provided me with the chance to explore and broaden the application's usage, while incorporating augmented reality
-                                (AR) technology to enhance the user experience. It allowed me to delve into the realm of user-centric design and create an immersive and interactive
-                                environment within the application.</p>
-                                <p className='my-4'>Overall, this project has been a rewarding journey that has not only allowed me to contribute to the application's growth but has also enabled
-                                me to gain valuable insights into the world of user experience, augmented reality, and application development.</p>
+                            usage beyond its initial scope. This involved brainstorming and implementing new features and functionalities.</p>
+                        <p className='my-4'>Engaging in this project provided me with the chance to explore and broaden the application's usage, while incorporating augmented reality
+                            (AR) technology to enhance the user experience. It allowed me to delve into the realm of user-centric design and create an immersive and interactive
+                            environment within the application.</p>
+                        <p className='my-4'>Overall, this project has been a rewarding journey that has not only allowed me to contribute to the application's growth but has also enabled
+                            me to gain valuable insights into the world of user experience, augmented reality, and application development.</p>
                     </div>
 
                     <div className='py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
@@ -305,10 +305,10 @@ export default function MyApp() {
                     <div className='py-4 md:pb-10 text-white text-l md:text-xl items-center w-full'>
                         <p className='mb-4 font-bold'> Social Interactions and Offline Engagement</p>
                         <p className='my-4'>Excessive reliance on smartphones in outdoor settings can lead individuals to feel disconnected from the real world, raising concerns about reduced social
-                                interactions and limited engagement in offline experiences.</p>
-                                <p className='font-bold'> Privacy</p>
-                            <p className='my-4'>Users may have concerns about the app's access to their device's camera and the potential for unauthorized recording or capturing of personal moments.</p>
-                            <p>The need for clear and transparent privacy policies to address user concerns about data security, consent, and control over their captured media.</p>
+                            interactions and limited engagement in offline experiences.</p>
+                        <p className='font-bold'> Privacy</p>
+                        <p className='my-4'>Users may have concerns about the app's access to their device's camera and the potential for unauthorized recording or capturing of personal moments.</p>
+                        <p>The need for clear and transparent privacy policies to address user concerns about data security, consent, and control over their captured media.</p>
                     </div>
 
 

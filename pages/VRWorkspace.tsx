@@ -92,7 +92,14 @@ export default function MyApp() {
                         </p>
                     </div>
 
-                    <div className='md:py-10 md:inline-flex md:space-x-10 items-center justify-center w-full'>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-y-7 gap-x-4">
+                        <img className="md:w-wull" src="/images/wsp-navsketche.jpg" alt="CinemAR" />
+                        <img className="md:w-full" src="/images/wsp-screensketch1.jpg" alt="CinemAR" />
+                        <img className="md:w-full" src="/images/wsp-screensketch02.jpg" alt="CinemAR" />
+                        <img className="md:w-full" src="/images/wsp-screensketch03.jpg" alt="CinemAR" />
+                    </div>
+
+                    {/* <div className='md:py-10 md:inline-flex md:space-x-10 items-center justify-center w-full'>
                         <img className="md:w-2/3" src="/images/wsp-navsketche.jpg" alt="CinemAR" />
                     </div>
                     <div className='md:py-10 md:inline-flex md:space-x-10 items-center justify-center w-full'>
@@ -103,7 +110,7 @@ export default function MyApp() {
                     </div>
                     <div className='md:py-10 md:inline-flex md:space-x-10 items-center justify-center w-full'>
                         <img className="md:w-2/3" src="/images/wsp-screensketch03.jpg" alt="CinemAR" />
-                    </div>
+                    </div> */}
 
                     <div className='py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
                         <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
@@ -226,8 +233,8 @@ export default function MyApp() {
                         </div>
                         <div className="text-white text-l md:text-xl md:w-3/5">
                             <p>I find the spatial design aspect of this project fascinating because it requires creating an experience that feels genuine and
-                                 tailored to the specific platform, following Apple's principles. This approach is interesting because it involves carefully
-                                  considering how the design elements work together in the given space, ultimately improving the overall experience for the user.</p>
+                                tailored to the specific platform, following Apple's principles. This approach is interesting because it involves carefully
+                                considering how the design elements work together in the given space, ultimately improving the overall experience for the user.</p>
                         </div>
                     </div>
 

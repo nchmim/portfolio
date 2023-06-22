@@ -36,7 +36,7 @@ export default function MyApp() {
                                 With an abundance of language learning apps saturating the market, it begs the question :</p>
                             <p className='mt-4'>
                                 Do these applications <span className="font-medium" style={{ color: "#A8A7C0" }}>genuinely empower</span> users to
-                                <span className="font-medium" style={{ color: "#A8A7C0" }}>embark</span> on a journey of <span className="font-medium" style={{ color: "#A8A7C0" }}>learning</span>
+                                <span className="font-medium" style={{ color: "#A8A7C0" }}> embark</span> on a journey of <span className="font-medium" style={{ color: "#A8A7C0" }}>learning </span>
                                 and <span className="font-medium" style={{ color: "#A8A7C0" }}>unleash</span> their <span className="font-medium" style={{ color: "#A8A7C0" }}>maximum potential</span>?</p>
                         </div>
                     </div>
@@ -47,11 +47,11 @@ export default function MyApp() {
                             <div className="border-b-2 border-gray-400 w-16 ml-4" />
                         </div>
                         <div className="text-white text-l md:text-xl md:w-3/5">
-                            <p className='mt-4'>The language learning app market experienced a significant surge in revenue, reaching a staggering <span className="font-medium" style={{ color: "#A8A7C0" }}>$2.92 billion</span>
+                            <p className='mt-4'>The language learning app market experienced a significant surge in revenue, reaching a staggering <span className="font-medium" style={{ color: "#A8A7C0" }}>$2.92 billion </span>
                                 in 2021, reflecting a remarkable <span className="font-medium" style={{ color: "#A8A7C0" }}>year-on-year growth</span> of
                                 <span className="font-medium" style={{ color: "#A8A7C0" }}> 65%</span>.</p>
                             <p className='mt-4'>The report highlights  <span className="font-medium" style={{ color: "#A8A7C0" }}>Ai</span> and  <span className="font-medium" style={{ color: "#A8A7C0" }}>ML</span> as key technologies
-                                <span className="font-medium" style={{ color: "#A8A7C0" }}>fueling innovation</span> in language learning apps,  <span className="font-medium" style={{ color: "#A8A7C0" }}>enabling personalized</span> learning experiences,
+                                <span className="font-medium" style={{ color: "#A8A7C0" }}> fueling innovation</span> in language learning apps,  <span className="font-medium" style={{ color: "#A8A7C0" }}>enabling personalized</span> learning experiences,
                                 speech recognition, and language translation.</p>
                         </div>
                     </div>
@@ -362,7 +362,7 @@ export default function MyApp() {
 
                     <div className='pt-10 mt-10 items-center w-full'>
                         <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
-                            <p className="font-bold text-l md:text-xl">WHat I've learned from this project</p>
+                            <p className="font-bold text-l md:text-xl">What I've learned from this project</p>
                             <div className="border-b-2 border-gray-400 w-16 ml-4" />
                         </div>
                     </div>
@@ -386,7 +386,7 @@ export default function MyApp() {
                         <p className='py-4'><span className="font-bold" style={{ color: "#A8A7C0" }}>Personalization and Data Privacy</span> : Personalization in an AI-powered language learning app
                             relies on collecting and analyzing user data, raising concerns about data privacy and security. App developers must prioritize privacy measures, transparent
                             data handling practices, and obtain user consent for data usage.</p>
-                        <p className='py-10'><span className="font-bold" style={{ color: "#A8A7C0" }}>Continuous Improvement</span> : AI should be continuously updated and improved based on user feedback
+                        <p className='py-4'><span className="font-bold" style={{ color: "#A8A7C0" }}>Continuous Improvement</span> : AI should be continuously updated and improved based on user feedback
                             and evolving language trends. Regular updates, bug fixes, and adding new features and content ensure that the app remains relevant and effective for learners.</p>
                     </div>
 
