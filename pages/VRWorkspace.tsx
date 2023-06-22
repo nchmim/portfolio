@@ -65,7 +65,7 @@ export default function MyApp() {
                     </div> */}
 
                     <div className='md:py-20 md:inline-flex md:space-x-10 items-center justify-center w-full'>
-                        <img className="md:w-2/3" src="/images/wsp-brainstorm.jpg" alt="CinemAR" />
+                        <img className="md:w-2/3" src="/images/123.png" alt="CinemAR" />
                     </div>
 
                     <div className='py-4 md:pb-10 text-white text-l md:text-xl items-center w-full'>
