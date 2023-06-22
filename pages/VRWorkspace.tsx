@@ -163,7 +163,7 @@ export default function MyApp() {
                     </div>
 
                     <div className='md:py-10 md:inline-flex md:space-x-10 items-center justify-center w-full'>
-                        <img className="md:w-2/3" src="/images/wsp-screencontrol.png" alt="CinemAR" />
+                        <img className="md:w-2/3" src="/images/wsp-image-user.png" alt="CinemAR" />
                     </div>
 
                     <div className='py-4 md:pb-10 text-white text-l md:text-xl items-center w-full'>
