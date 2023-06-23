@@ -24,6 +24,8 @@ export default function MyApp() {
                         <div className="text-white my-7 text-l md:text-xl md:w-2/5">
                             <p className="font-bold text-l md:text-xl">Duration</p>
                             <p>2 Months</p>
+                            <p className="font-bold text-l md:text-xl mt-4">Team</p>
+                            <p>Nutcha / Punnath</p>
                             <p className="font-bold text-l md:text-xl mt-4">Role</p>
                             <p>UX Researcher / UX/UI Designer</p>
                         </div>
