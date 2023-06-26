@@ -98,7 +98,7 @@ export default function MyApp() {
                         </p>
                     </div>
 
-                    <div className='py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
+                    <div className='pt-10 pb-20 md:inline-flex md:space-x-10 items-center w-full'>
                         <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
                             <p className="font-bold text-l md:text-xl">Extract Insights</p>
                             <div className="border-b-2 border-gray-400 w-16 ml-4" />
@@ -112,9 +112,22 @@ export default function MyApp() {
                         </div>
                     </div>
 
-                    <div className='md:py-20 md:inline-flex md:space-x-10 mt-10 items-center justify-center w-full'>
+                    {/* <div className='md:py-20 md:inline-flex md:space-x-10 mt-10 items-center justify-center w-full'>
                         <img className="w-full" src="/images/cinemar-insights.png" alt="CinemAR" />
+                    </div> */}
+
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-y-7 gap-x-4">
+                        <img className="w-full" src="/images/CinemAR-insight01.png" alt="CinemAR" />
+                        <img className="w-full" src="/images/CinemAR-insight02.png" alt="CinemAR" />
+                        <img className="w-full" src="/images/CinemAR-insight03.png" alt="CinemAR" />
+                        <img className="w-full" src="/images/CinemAR-insight04.png" alt="CinemAR" />
                     </div>
+
+                    <div className='md:inline-flex md:space-x-10 mt-7 items-center justify-center w-full'>
+                        <img className="md:w-2/4" src="/images/CinemAR-insight05.png" alt="CinemAR" />
+                    </div>
+
+                    
 
                     <div className='py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
                         <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
@@ -174,9 +187,9 @@ export default function MyApp() {
                         </div>
                     </div>
 
-                    <div className='md:inline-flex md:space-x-10 my-10 items-center justify-center w-full'>
+                    {/* <div className='md:inline-flex md:space-x-10 my-10 items-center justify-center w-full'>
                         <img className="md:w-3/4" src="/images/cinemar-idearating.png" alt="CinemAR" />
-                    </div>
+                    </div> */}
 
                     <div className='py-4 md:pb-10 text-white text-l md:text-xl items-center w-full'>
                         <p>By conducting brief semi-structured interviews and design evaluations, we engaged participants in providing subjective feedback on our sketches

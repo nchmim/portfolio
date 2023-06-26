@@ -1,4 +1,5 @@
 import Layout from '../components/layout';
+import GridScramble from '../components/GridScramble';
 
 export default function MyApp() {
     return (
@@ -16,6 +17,9 @@ export default function MyApp() {
             </p>
           </div>
           <img className="md:w-1/3" src="/images/NCH_chrome.png" alt="HealthPath" />
+          {/* <div className='text-white text-8xl font-serif'>
+          <GridScramble>NUTCHA</GridScramble>
+          </div> */}
         </div>
         <div className="flex-grow border-t-2 mb-10 md:mb-20 border-gray-400" />
 

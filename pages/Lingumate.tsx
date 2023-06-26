@@ -15,7 +15,7 @@ export default function MyApp() {
                             With its innovative features and user-friendly interface, Lingumate provides a personalized and immersive learning experience.
                         </p>
                     </div>
-                    <img className="md:w-3/5" src="/images/Lingumate.png" alt="Lingumate" />
+                    <img className="md:w-3/5" src="/images/lingumate-imgfinal.png" alt="Lingumate" />
                 </div>
                 <div className="flex-grow border-t-2 border-gray-400" />
 
@@ -194,7 +194,7 @@ export default function MyApp() {
                         </div>
                     </div>
 
-                    <div className="mt-14 mb-4 md:mt-20 flex justify-center text-white text-l md:text-xl">
+                    {/* <div className="mt-14 mb-4 md:mt-20 flex justify-center text-white text-l md:text-xl">
                         <p className='font-bold'>Concept Refinement</p>
                     </div>
 
@@ -203,7 +203,7 @@ export default function MyApp() {
                     </div>
                     <div className='md:inline-flex md:space-x-10 my-10 items-center justify-center w-full'>
                         <img className="md:w-3/4" src="/images/lingumate-refinement02.png" alt="Lingumate" />
-                    </div>
+                    </div> */}
 
                     <div className="mt-14 mb-4 md:mt-20 flex justify-center text-white text-l md:text-xl">
                         <p className='font-bold'>User Flow</p>
@@ -212,12 +212,12 @@ export default function MyApp() {
                         <img className="md:w-3/4" src="/images/lingumate-useflow.png" alt="Lingumate" />
                     </div>
 
-                    <div className="mt-14 mb-4 md:mt-20 flex justify-center text-white text-l md:text-xl">
+                    {/* <div className="mt-14 mb-4 md:mt-20 flex justify-center text-white text-l md:text-xl">
                         <p className='font-bold'>Information Architecture</p>
                     </div>
                     <div className='md:inline-flex md:space-x-10 my-10 items-center justify-center w-full'>
                         <img className="md:w-3/4" src="/images/lingumate-IA.png" alt="Lingumate" />
-                    </div>
+                    </div> */}
 
                     <div className='py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
                         <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
@@ -393,7 +393,7 @@ export default function MyApp() {
                     </div>
 
                     <div className='md:py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
-                        <img className="w-full" src="/images/lingumate-imgfinal.png" alt="Lingumate" />
+                        <img className="w-full" src="/images/Lingumate.png" alt="Lingumate" />
                     </div>
 
 

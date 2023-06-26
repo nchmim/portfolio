@@ -86,7 +86,7 @@ export default function MyApp() {
               <div className="border-b-2 border-gray-400 w-16 ml-4" />
             </div>
             <div className="text-white text-l md:text-xl md:w-3/5">
-              <p>Upon gathering information from the participants, I have distilled theirUpon gathering information fro insights into three key categories.</p>
+              <p>Upon gathering information from the participants, I have distilled their insights into three key categories.</p>
             </div>
           </div>
 
@@ -243,6 +243,7 @@ export default function MyApp() {
                 values and personality. I utilized the golden ratio as a guiding principle in the design process.</p>
             </div>
           </div>
+          
 
           <div className='md:py-4 md:inline-flex md:space-x-10 mt-10 items-center justify-center w-full'>
             <img className="w-full" src="/images/healthpath-branding01.png" alt="HealthPath" />
@@ -307,6 +308,21 @@ export default function MyApp() {
             <p>This feature provides users with incentives, rewards, and a system for redeeming them based on their progress and engagement with the app.
               This feature aims to motivate and reinforce positive behaviors, ultimately encouraging users to stay committed to their health and wellness goals.</p>
           </div>
+
+          <div className='py-10 md:pb-10 text-white text-l md:text-xl items-center w-full'>
+                        <p className='font-bold'>  What I’ve learned from this project?</p>
+                        <p className='mt-4 font-bold'>Listen to user needs</p>
+                        <p>Understanding and meeting the needs of users is paramount in creating a health app that delivers value and meets their 
+                        expectations. By attentively listening to their perspectives, I can incorporate these insights into the app's design and development. 
+                        This process can result in an app that is well-received and frequently utilized by users, providing them with a meaningful and positive experience. 
+                        In short, prioritizing the user's needs is key.</p>
+                        <p className='mt-4 font-bold'>Research helps a lot</p>
+                        <p>Research is an indispensable aspect of the app development process. Apart from comprehending the users' needs, research can assist developers in 
+                          shaping many other facets of the app's design and development. By delving deeper into the research, developers can obtain insights into the app's 
+                          competitors, market trends, and design considerations. This knowledge can be used to create an app that is user-focused, unique, and meets the 
+                          market demands. </p>
+                        
+                    </div>
 
           <div className="py-10 text-white text-l md:text-xl flex items-center justify-center w-full flex-col md:flex-row">
             <button className="bg-black border-2 border-white hover:scale-105 text-white font-medium py-4 px-4 rounded" onClick={() => window.open('https://www.figma.com/proto/udJeCXf6DvOA0sufNFROpe/Health-Path?page-id=0%3A1&type=design&node-id=104-867&viewport=643%2C4905%2C0.21&scaling=contain&starting-point-node-id=104%3A867', '_blank')}>

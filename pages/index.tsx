@@ -62,7 +62,7 @@ export default function MyApp() {
         </div>
         <div>
           <Link href="/Lingumate">
-            <img src="/images/Lingumate.png" alt="Lingumate" className="w-full h-auto" />
+            <img src="/images/lingumate-imgfinal.png" alt="Lingumate" className="w-full h-auto" />
           </Link>
           <p className="mt-4 text-white lg:text-xl font-bold">Lingumate</p>
           <p className="text-white lg:text-l">UX / UI</p>
