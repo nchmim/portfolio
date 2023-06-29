@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 import Drawer from "@mui/material/Drawer";
 import Image from "next/image"
@@ -12,9 +13,8 @@ import { useSearchParams } from 'next/navigation'
 
 export default function MyApp() {
   const searchParams = useSearchParams()
-  const source = searchParams.get('source')
+  const source = searchParams ? searchParams.get('source') : null
   const isFromResume = source == 'resume'
-  console.log(isFromResume)
   return (<Layout home>
     <div className="font-light flex flex-col justify-center md:flex-row md:inline-flex md:items-center md:mt-56 md:mb-64">
       <div className="md:w-1/2 md:ml-24">
