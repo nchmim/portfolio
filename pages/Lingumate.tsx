@@ -27,7 +27,7 @@ export default function MyApp() {
                             <p className="font-bold text-l md:text-xl mt-4">Team</p>
                             <p>Nutcha / Punnath</p>
                             <p className="font-bold text-l md:text-xl mt-4">Role</p>
-                            <p>UX Researcher / UX/UI Designer</p>
+                            <p>UX Researcher / UX Designer</p>
                         </div>
                         <div className="text-white text-l md:text-xl md:w-3/5">
                             <p>
