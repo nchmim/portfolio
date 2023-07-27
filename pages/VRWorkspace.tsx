@@ -15,7 +15,7 @@ export default function MyApp() {
                             VR workspaces provide a three-dimensional and interactive experience that can enhance productivity, collaboration, and creativity.
                         </p>
                     </div>
-                    <img className="md:w-3/5" src="/images/VR_wsp_01.gif" alt="HealthPath" />
+                    <img className="md:w-3/5" src="/images/VR_wsp_01.gif" alt="VR Workspace" />
                 </div>
                 <div className="flex-grow border-t-2 border-gray-400" />
 
@@ -43,7 +43,7 @@ export default function MyApp() {
                         </div>
                         <div className="text-white text-l md:text-xl md:w-3/5">
                             <p>Create an immersive and engaging environment that stimulates productivity. Through realistic and interactive elements, users can tailor their virtual
-                                workspace to mimic their ideal office setup, complete with customizable layouts, </p>
+                                workspace to mimic their ideal office setup, complete with customizable layouts. </p>
                         </div>
                     </div>
 
