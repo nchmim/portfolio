@@ -85,7 +85,7 @@ export default function MyApp() {
           <Link href="/IG">
             <img src="/images/Cover_Black.png" alt="IG" className="w-full h-auto" />
           </Link>
-          <p className="mt-4 text-white lg:text-xl font-bold">IG Story Enhancement</p>
+          <p className="mt-4 text-white lg:text-xl font-bold">IG Story Redesign</p>
           <p className="text-white lg:text-l">UX / UI</p>
         </div>
         
@@ -93,7 +93,7 @@ export default function MyApp() {
           <Link href="/NAYA">
             <img src="/images/NAYA.gif" alt="NAYA" className="w-full h-auto" />
           </Link>
-          <p className="mt-4 text-white lg:text-xl font-bold">NAYA Re-design</p>
+          <p className="mt-4 text-white lg:text-xl font-bold">NAYA Redesign</p>
           <p className="text-white lg:text-l">Rebranding</p>
         </div>
 

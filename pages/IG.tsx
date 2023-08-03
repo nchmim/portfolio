@@ -7,7 +7,7 @@ export default function MyApp() {
                 <div className='md:inline-flex md:space-x-10 mt-10 items-center'>
                     <div className='md:w-2/5'>
                         <p className="font-bold text-white text-xl md:text-2xl">
-                            IG Story Enhancement
+                            IG Story Redesign
                         </p>
                         <p className="text-white text-l md:text-xl">UX / UI</p>
                         <p className="text-white my-7 text-l md:text-xl">
