@@ -73,7 +73,7 @@ export default function MyApp() {
             <div className="text-white text-l md:text-xl md:w-3/5">
               <p className="font-medium">Key Areas of Understanding</p>
               <p className="mt-4">🧡 To understand the <span className="font-medium" style={{ color: "#F37601" }}>factors</span> that drive individuals to
-                <span className="font-medium" style={{ color: "#F37601" }}> adopt</span> and <span style={{ color: "#F37601" }}>maintain</span> healthy habits.</p>
+                <span className="font-medium" style={{ color: "#F37601" }}> adopt</span> and <span className="font-medium" style={{ color: "#F37601" }}>maintain</span> healthy habits.</p>
               <p>💜 To understand the <span className="font-medium" style={{ color: "#F37601" }}>development</span> and <span className="font-medium" style={{ color: "#F37601" }}>reinforcement</span> of healthy habits emerged.</p>
               <p>💚 To understand the <span className="font-medium" style={{ color: "#F37601" }}>process</span> of <span className="font-medium" style={{ color: "#F37601" }}>setting</span> and
                 <span className="font-medium" style={{ color: "#F37601" }}> achieving</span> health-related goals.</p>
@@ -262,54 +262,58 @@ export default function MyApp() {
               <p className="font-bold text-l md:text-xl">Final Design</p>
               <div className="border-b-2 border-gray-400 w-16 ml-4" />
             </div>
-            <p className='my-4 text-white text-l md:text-xl'>Key Features</p>
+            {/* <p className='my-4 text-white text-l md:text-xl'>Key Features</p> */}
           </div>
 
 
 
-          <div className='md:py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
-            <img className="w-full" src="/images/Healthpath_feature01.gif" alt="HealthPath" />
-          </div>
 
-          <div className='pb-4 md:pb-10 text-white text-l md:text-xl items-center w-full'>
+
+          <div className='md:pt-7 text-white text-l md:text-xl items-center w-full'>
             <p className='py-2 font-bold'>Goal Customization</p>
             <p>Allows users to track their journey and visualize their data in a meaningful and informative way. This feature enables users
               to monitor their progress, identify trends, and make data-driven decisions to support their health and wellness goals.</p>
           </div>
-
-          <div className='md:py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
-            <img className="w-full" src="/images/Healthpath_feature02.gif" alt="HealthPath" />
+           <div className='md:pb-7 md:inline-flex md:space-x-10 my-10 items-center w-full'>
+            <img className="w-full" src="/images/Healthpath_feature01.gif" alt="HealthPath" />
           </div>
 
-          <div className='pb-4 md:pb-10 text-white text-l md:text-xl items-center w-full'>
+        <div className='pt-7 text-white text-l md:text-xl items-center w-full'>
             <p className='py-2 font-bold'>Progress Record  &  Data Visualization</p>
             <p>This feature allows users to tailor their health and wellness objectives according to their unique needs, preferences, and aspirations.
               By providing users with the ability to customize their goals, the app aims to create a personalized and empowering experience that fosters
               motivation and progress.</p>
           </div>
-
-          <div className='md:py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
-            <img className="w-full" src="/images/Healthpath_feature03.gif" alt="HealthPath" />
+          
+          <div className='md:pb-7 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
+            <img className="w-full" src="/images/Healthpath_feature02.gif" alt="HealthPath" />
           </div>
 
-          <div className='pb-4 md:pb-10 text-white text-l md:text-xl items-center w-full'>
+         <div className='pt-7 text-white text-l md:text-xl items-center w-full'>
             <p className='py-2 font-bold'>Personalized Plan</p>
             <p>This feature aims to provide users with tailored guidance and recommendations based on their individual needs, preferences, and goals.
               This feature allows users to create a customized plan that aligns with their specific requirements and maximizes their chances of success
               in achieving their health and wellness objectives.</p>
           </div>
 
-          <div className='md:py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
-            <img className="w-full" src="/images/Healthpath_feature04.gif" alt="HealthPath" />
+          <div className='md:pb-7 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
+            <img className="w-full" src="/images/Healthpath_feature03.gif" alt="HealthPath" />
           </div>
 
-          <div className='pb-4 md:pb-10 text-white text-l md:text-xl items-center w-full'>
+        
+
+
+          <div className='pt-7 text-white text-l md:text-xl items-center w-full'>
             <p className='py-2 font-bold'>Reward & redemption</p>
             <p>This feature provides users with incentives, rewards, and a system for redeeming them based on their progress and engagement with the app.
               This feature aims to motivate and reinforce positive behaviors, ultimately encouraging users to stay committed to their health and wellness goals.</p>
           </div>
 
-          <div className='py-10 md:pb-10 text-white text-l md:text-xl items-center w-full'>
+          <div className='md:pb-7 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
+            <img className="w-full" src="/images/Healthpath_feature04.gif" alt="HealthPath" />
+          </div>
+
+          <div className='py-10 text-white text-l md:text-xl items-center w-full'>
                         <p className='font-bold'>  What I’ve learned from this project?</p>
                         <p className='mt-4 font-bold'>Listen to user needs</p>
                         <p>Understanding and meeting the needs of users is paramount in creating a health app that delivers value and meets their 
