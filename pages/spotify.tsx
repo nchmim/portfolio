@@ -7,15 +7,15 @@ export default function MyApp() {
                 <div className='md:inline-flex md:space-x-10 mt-10 items-center'>
                     <div className='md:w-2/5'>
                         <p className="font-bold text-white text-xl md:text-2xl">
-                            IG Story Redesign
+                            Spotify Case Study
                         </p>
                         <p className="text-white text-l md:text-xl">UX / UI</p>
                         <p className="text-white my-7 text-l md:text-xl">
-                        The IG Story Enhancement Case Study delves into the development of improved features for Instagram Stories, empowering users to unleash their 
-                        creativity and personalize their story content in innovative ways.
+                        
+The Spotify Localized Content Case Study aims to delve into how Spotify leverages the power of music to foster stronger local connections among its users. This case study seeks to understand how the platform facilitates a deeper sense of community and belonging on a local level.
                         </p>
                     </div>
-                    <img className="md:w-3/5" src="/images/Cover_Black.png" alt="IG" />
+                    <img className="md:w-3/5" src="/images/spotify_cover.png" alt="IG" />
                 </div>
                 <div className="flex-grow border-t-2 border-gray-400" />
 
@@ -29,7 +29,7 @@ export default function MyApp() {
                         </div>
                         <div className="text-white text-l md:text-xl md:w-3/5">
                             <p>
-                            In an era dominated by digital connectivity, Instagram Stories have emerged as a groundbreaking solution that pushes the boundaries of traditional social media. Among these innovations, Instagram Stories have become an integral part of many people's lives, serving as the cornerstone that keeps individuals connected and engaged with the world around them.
+                            Spotify reigns supreme as the world's foremost music streaming application, boasting a staggering user base of over 220 million subscribers worldwide. This widespread acclaim can be attributed to its expertly curated playlists and tailored recommendations, which have seamlessly integrated themselves into the daily routines of countless individuals. Spotify has become an integral aspect of their musical journey, serving as the rhythmic pulse that connects them with the tunes and harmonies that deeply resonate with their inner selves.
                             </p>
                         </div>
                     </div>
@@ -40,10 +40,7 @@ export default function MyApp() {
                             <div className="border-b-2 border-gray-400 w-16 ml-4" />
                         </div>
                         <div className="text-white text-l md:text-xl md:w-3/5">
-                            <p>As someone who loves using Instagram and regularly shares a bunch of stories, I noticed some areas where the Instagram Story feature
-                                 could be even better. That's why I'm excited to work on improving the IG Story experience! My goal is to enhance user experience and 
-                                 creativity. With a focus on customization and ease of use, the redesigned Instagram Story empowers users to create captivating and
-                                  personalized stories.</p>
+                            <p>As a devoted Spotify enthusiast, I've come to appreciate the platform's exceptional music suggestions and curated playlists. I'm genuinely intrigued to discover how Spotify can elevate the sense of community among its users on a local level</p>
                         </div>
                     </div>
 
