@@ -29,7 +29,14 @@ The Spotify Localized Content Case Study aims to delve into how Spotify leverage
                         </div>
                         <div className="text-white text-l md:text-xl md:w-3/5">
                             <p>
-                            Spotify reigns supreme as the world's foremost music streaming application, boasting a staggering user base of over 220 million subscribers worldwide. This widespread acclaim can be attributed to its expertly curated playlists and tailored recommendations, which have seamlessly integrated themselves into the daily routines of countless individuals. Spotify has become an integral aspect of their musical journey, serving as the rhythmic pulse that connects them with the tunes and harmonies that deeply resonate with their inner selves.
+                            Spotify reigns supreme as the world's foremost music streaming application, 
+                            boasting a staggering user base of over 220 million subscribers worldwide. 
+                            This widespread acclaim can be attributed to its expertly curated playlists 
+                            and tailored recommendations, which have seamlessly integrated themselves 
+                            into the daily routines of countless individuals. Spotify has become an 
+                            integral aspect of their musical journey, serving as the rhythmic pulse 
+                            that connects them with the tunes and harmonies that deeply resonate with 
+                            their inner selves.
                             </p>
                         </div>
                     </div>
@@ -40,22 +47,35 @@ The Spotify Localized Content Case Study aims to delve into how Spotify leverage
                             <div className="border-b-2 border-gray-400 w-16 ml-4" />
                         </div>
                         <div className="text-white text-l md:text-xl md:w-3/5">
-                            <p>As a devoted Spotify enthusiast, I've come to appreciate the platform's exceptional music suggestions and curated playlists. I'm genuinely intrigued to discover how Spotify can elevate the sense of community among its users on a local level</p>
+                            <p>As a devoted Spotify enthusiast, I've come to appreciate the platform's exceptional music suggestions and 
+                                curated playlists. I'm genuinely intrigued to discover how Spotify can elevate the sense of community among 
+                                its users on a local level.</p>
+                        </div>
+                    </div>
+                    <div className='py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
+                        <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
+                            <p className="font-bold text-l md:text-xl">GOAL</p>
+                            <div className="border-b-2 border-gray-400 w-16 ml-4" />
+                        </div>
+                        <div className="text-white text-l md:text-xl md:w-3/5">
+                            <p>Create a more <span className="font-medium" style={{ color: "#F0913E" }}>inclusive</span>, <span className="font-medium" style={{ color: "#EB5640" }}>culturally relevant</span>, and <span className="font-medium" style={{ color: "#8C3EF0" }}>engaging</span> experience for users across different regions and languages.</p>
                         </div>
                     </div>
 
                     <div className='py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
-                        <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
-                            <p className="font-bold text-l md:text-xl">Research</p>
-                            <div className="border-b-2 border-gray-400 w-16 ml-4" />
-                        </div>
-                        <div className="text-white text-l md:text-xl md:w-3/5">
-                            <p>I conducted interviews with avid Instagram users who regularly post stories to understand their frustrations and concerns surrounding the
-                                 platform's features. By engaging with these users, I sought to gain valuable insights into the challenges they face when sharing stories 
-                                 and their desires for improvements that could enhance their experience. </p>
-                        </div>
-                    </div>
-
+            <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
+              <p className="font-bold text-l md:text-xl">Research</p>
+              <div className="border-b-2 border-gray-400 w-16 ml-4" />
+            </div>
+            <div className="text-white text-l md:text-xl md:w-3/5">
+              <p className="font-medium">To get a better understanding of what users were thinking
+               and what they needed, I chose to center my research around these key questions.</p>
+              <p className="mt-4">💚 When it comes to discovering new music, how important is it for you to know what songs are currently popular in your neighborhood or city?</p>
+              <p className='py-2'>❤️ How do you currently stay updated on music trends and what's popular in your local community?</p>
+              <p className='py-2'>🧡 Have you ever wanted to share your music preferences or playlists with others in your local area? What motivated you to do so, and how did you go about it?</p>
+              <p className='py-2'>💜 In what ways could Spotify enhance its platform to help you better connect with your community?</p>
+            </div>
+          </div>
 
           <div className='py-2 md:py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
             <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
@@ -63,7 +83,7 @@ The Spotify Localized Content Case Study aims to delve into how Spotify leverage
               <div className="border-b-2 border-gray-400 w-16 ml-4" />
             </div>
             <div className="bg-neutral-700 rounded-lg py-4 px-10 md:px-20 py-10 text-white text-l md:text-xl md:w-3/5">
-              <p className='font-medium'>"I feel concerned about privacy when posting Instagram stories in real-time. Sometimes, I hesitate to share content immediately due to the real-time nature of the feature."</p>
+              <p className='font-medium'>"When I'm out and about, I hear catchy tunes playing at cafes and bars. I wish I could easily find out which songs are popular in my city."</p>
             </div>
           </div>
 
@@ -71,7 +91,8 @@ The Spotify Localized Content Case Study aims to delve into how Spotify leverage
             <div className="text-white my-7 text-l md:text-xl md:w-2/5">
             </div>
             <div className="bg-neutral-700 rounded-lg py-4 px-10 md:px-20 py-10 text-white text-l md:text-xl md:w-3/5">
-              <p className='font-medium'>“It's annoying that I need to use my phone's camera first to adjust the lighting before uploading a photo to my Instagram story."</p>
+              <p className='font-medium'>“Knowing what songs are popular in my neighborhood or city is quite important to me. 
+              I love feeling connected to my people neighborhood."</p>
             </div>
           </div>
 
@@ -79,7 +100,17 @@ The Spotify Localized Content Case Study aims to delve into how Spotify leverage
             <div className="text-white my-7 text-l md:text-xl md:w-2/5">
             </div>
             <div className="bg-neutral-700 rounded-lg py-4 px-10 md:px-20 py-10 text-white text-l md:text-xl md:w-3/5">
-              <p className='font-medium'>"I love sharing photos on my Instagram story, but I often wish I could edit them right after taking them. Sometimes the photos I take on Instagram don't look good, and I have to edit them using external apps."</p>
+              <p className='font-medium'>“I like knowing what my fellow locals are listening to. It'd be a cool feature to see the
+               top songs in my town or neighborhood."</p>
+            </div>
+          </div>
+
+          <div className='md:py-4 md:inline-flex md:space-x-10 items-center w-full'>
+            <div className="text-white my-7 text-l md:text-xl md:w-2/5">
+            </div>
+            <div className="bg-neutral-700 rounded-lg py-4 px-10 md:px-20 py-10 text-white text-l md:text-xl md:w-3/5">
+              <p className='font-medium'>“Listening to local radio is hit or miss. I'd appreciate a way to identify and 
+              explore the songs that are currently popular in my area."</p>
             </div>
           </div>
 
@@ -90,163 +121,108 @@ The Spotify Localized Content Case Study aims to delve into how Spotify leverage
                             <div className="border-b-2 border-gray-400 w-16 ml-4" />
                         </div>
                         <div className="text-white text-l md:text-xl md:w-3/5">
-                            <p>By gathering their insights, I sought to uncover the challenges they face in sharing captivating and personalized content. These insights
-                                 allowed me to identify three primary issues and concerns that users commonly face.</p>
+                            <p>By listening to users' thoughts and opinions, I aimed to gain a better understanding of what they truly need.</p>
                         </div>
                     </div>
 
                     <div className='md:py-4 md:inline-flex md:space-x-10 items-center justify-center w-full'>
-                        <img className="md:w-4/5" src="/images/Issue1.png" alt="IG" />
+                        <img className="md:w-4/5" src="/images/spotify_problems.png" alt="IG" />
                     </div>
-               {/* 
-                    <div className='py-4 md:pb-10 text-white text-l md:text-xl items-center w-full'>
-                        <p className='font-bold'>Privacy Concern</p>
-                        <p>Privacy is a significant concern for many users when it comes to posting Instagram stories. The real-time nature of this feature can make some 
-                            individuals hesitant to share content immediately. 
-                        </p>
-                    </div> */}
+              
 
+                    <div className='py-2 md:py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
+            <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
+              <p className="font-bold text-l md:text-xl">Ideate</p>
+              <div className="border-b-2 border-gray-400 w-16 ml-4" />
+            </div>
+            <div className="bg-neutral-700 rounded-lg py-4 px-10 md:px-20 py-10 text-white text-l md:text-xl md:w-3/5">
+              <p className='font-medium'>HMW enable users to share and explore the music preferences of their neighbors or fellow locals?</p>
+            </div>
+          </div>
 
-                    <div className='md:py-4 md:inline-flex md:space-x-10 items-center justify-center w-full'>
-                        <img className="md:w-4/5" src="/images/Issue2.png" alt="IG" />
-                    </div>
-                  {/*   <div className='py-4 md:pb-10 text-white text-l md:text-xl items-center w-full'>
-                        <p className='font-bold'>Camera Lighting Control</p>
-                        <p>The lack of lighting adjustment settings in the camera can be frustrating for certain users looking to capture high-quality photos 
-                            for their Instagram stories, as they miss the opportunity to optimize the lighting conditions according to their preferences. Relying 
-                            solely on the tap-to-focus feature may not adequately address the lighting issues, resulting in users desiring more control over the lighting conditions for their photos.
-                        </p>
-                    </div>
- */}
-                    <div className='md:py-4 md:inline-flex md:space-x-10 items-center justify-center w-full'>
-                        <img className="md:w-4/5" src="/images/Issue3.png" alt="IG" />
-                    </div>
-                 {/*    <div className='py-4 md:pb-10 text-white text-l md:text-xl items-center w-full'>
-                        <p className='font-bold'>Photo Editing</p>
-                        <p>After capturing a photo for their Instagram story, users may desire additional editing options beyond the standard filters provided by the
-                             platform. These options might include adjusting elements such as contrast, lighting, and other aspects of the photo to enhance its overall
-                              appearance before sharing it with their followers.
-                        </p>
-                    </div> */}
+          <div className='md:py-4 md:inline-flex md:space-x-10 items-center w-full'>
+            <div className="text-white my-7 text-l md:text-xl md:w-2/5">
+            </div>
+            <div className="bg-neutral-700 rounded-lg py-4 px-10 md:px-20 py-10 text-white text-l md:text-xl md:w-3/5">
+              <p className='font-medium'>HMW make it effortless for users to discover and save songs they hear in everyday situations?</p>
+            </div>
+          </div>
 
-                    <div className='py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
-                        <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
-                            <p className="font-bold text-l md:text-xl">Ideate</p>
-                            <div className="border-b-2 border-gray-400 w-16 ml-4" />
-                        </div>
-                        <div className="text-white text-l md:text-xl md:w-3/5">
-                            <p>How Might We enhance user preference and creativity on Instagram Stories to create more captivating and personalized content? </p>
-                        </div>
-                    </div>
-
-                  {/*   <div className='py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
-                        <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
-                            <p className="font-bold text-l md:text-xl">Design</p>
-                            <div className="border-b-2 border-gray-400 w-16 ml-4" />
-                        </div>
-                        <div className="text-white text-l md:text-xl md:w-3/5"></div>
-                    </div> */}
+          <div className='md:py-4 md:inline-flex md:space-x-10 items-center w-full'>
+            <div className="text-white my-7 text-l md:text-xl md:w-2/5">
+            </div>
+            <div className="bg-neutral-700 rounded-lg py-4 px-10 md:px-20 py-10 text-white text-l md:text-xl md:w-3/5">
+              <p className='font-medium'>HMW create a feature that allows users to discover the most popular songs in their local area?</p>
+            </div>
+          </div>
+                 
  <div className='py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
                         <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
-                            <p className="font-bold text-l md:text-xl">Initial Concept Exploration</p>
+                            <p className="font-bold text-l md:text-xl">Thoughtful Execution</p>
                             <div className="border-b-2 border-gray-400 w-16 ml-4" />
                         </div>
                         <div className="text-white text-l md:text-xl md:w-3/5">
-                        <p>To ensure the interface's usability and functionality, I brainstorm and create multiple design concepts, each offering a different 
-                                approach. This exploration allows me to explore various possibilities and identify the most effective and user-friendly interface 
-                                for the project.</p>
+                        <p>To ensure I maintain a deliberate approach and avoid introducing solutions hastily, I rely on the 
+                            'Thoughtful Execution tree.' This framework reminds me of the essential steps in a methodical product 
+                            development process, encouraging me to systematically explore various problem facets and hypotheses before narrowing down to a single solution.</p>
                         </div>
                     </div>
 
             
             
                     <div className='md:py-10 md:inline-flex md:space-x-10 items-center justify-center w-full'>
-                        <img className="md:w-4/5" src="/images/Concept_Exploration1.png" alt="IG" />
-                    </div>
-
-                    <div className='md:py-10 md:inline-flex md:space-x-10 items-center justify-center w-full'>
-                        <img className="md:w-4/5" src="/images/Concept_Exploration2.png" alt="IG" />
-                    </div>
-
-                    <div className='md:py-10 md:inline-flex md:space-x-10 items-center justify-center w-full'>
-                        <img className="md:w-4/5" src="/images/Concept_Exploration3.png" alt="IG" />
+                        <img className="md:w-4/5" src="/images/executiontree.png" alt="Spotify Thoughtful Execution Tree" />
                     </div>
 
                     <div className='py-4 md:pb-10 text-white text-l md:text-xl items-center w-full'>
-                        <p className='font-bold pb-4'>Rating UI Layout Explorations</p>
-                        <p>Following the exploration phase, I evaluated and rated the three explorations according to their ease of use, visual appeal,
-                             accessibility, and efficiency. I ranked them on a scale from <span className="font-bold">5</span> (highly preferred) to <span className="font-bold">1</span> (not preferred).
+                        <p className='font-bold pb-4'>Solutions</p>
+                        <p>After ideating and carefully execute solutions based on user needs, 
+                            I've amalgamated two impactful features: Localized Popularity Charts 
+                            and Nearby Music Discovery. These particular features resonate most 
+                            strongly with user needs, as they cater to the desire for real-time 
+                            access to popular music in their vicinity while also fulfilling the 
+                            curiosity to explore the musical preferences of their neighbors.
                         </p>
                     </div>
 
                     <div className='md:py-10 md:inline-flex md:space-x-10 items-center justify-center w-full'>
-                        <img className="md:w-4/5" src="/images/Rating.png" alt="IG" />
-                    </div>
-                    <div className='py-4 md:pb-10 text-white text-l md:text-xl items-center w-full'>
-                        <p className='font-bold pb-2'>Exploration 1</p>
-                        <p className='font-bold pb-2'>"Options at the bottom and Controls on the right"</p>
-                        <p>was rated as "highly preferred" in several categories, including ease of use, accessibility, and efficiency. It received the highest score among all explorations.
-                        </p>
-                    </div>
-                    <div className='py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
-                        <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
-                            <p className="font-bold text-l md:text-xl">Solutions</p>
-                            <div className="border-b-2 border-gray-400 w-16 ml-4" />
-                        </div>
-                        <div className="text-white text-l md:text-xl md:w-3/5"></div>
-                    </div>
-                    <div className='md:py-4 md:inline-flex md:space-x-10 items-center justify-center w-full'>
-                        <img className="md:w-4/5" src="/images/Solution1.png" alt="IG" />
-                    </div>
-                    <div className='md:py-4 md:inline-flex md:space-x-10 items-center justify-center w-full'>
-                        <img className="md:w-4/5" src="/images/Solution2.png" alt="IG" />
-                    </div>
-                    <div className='md:py-4 md:inline-flex md:space-x-10 items-center justify-center w-full'>
-                        <img className="md:w-4/5" src="/images/Solution3.png" alt="IG" />
+                        <img className="md:w-4/5" src="/images/spotify-01.png" alt="IG" />
                     </div>
                    
-                    <div className='py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
-                        <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
-                            <p className="font-bold text-l md:text-xl">Measuring Success</p>
-                            <div className="border-b-2 border-gray-400 w-16 ml-4" />
-                        </div>
-                        <div className="text-white text-l md:text-xl md:w-3/5">
-                            <p>To evaluate the success of these enhancements in the future, the following steps can be taken.</p>
-                        </div>
+                    <div className='md:py-10 md:inline-flex md:space-x-10 items-center justify-center w-full'>
+                        <img className="md:w-4/5" src="/images/spotify-02.png" alt="IG" />
                     </div>
 
-                    <div className='py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
-                        <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
-                            <p className="font-bold text-l md:text-xl">Qualitative</p>
-                            <div className="border-b-2 border-gray-400 w-16 ml-4" />
-                        </div>
-                        <div className="text-white text-l md:text-xl md:w-3/5">
-                            <p>1. User Feedback: Gather feedback from users who have used the new enhancements. Conduct surveys or interviews to understand their overall 
-                                satisfaction, ease of use, and any pain points they might have encountered.</p>
-                            <p>2. User Experience: Monitor user interactions and behavior with the new features. Analyze how users engage with the enhancements and if they 
-                                find them valuable in enhancing their Instagram Story experience.</p>
-                            <p>3. User Retention: Measure whether users who have tried the new enhancements are more likely to continue using Instagram Stories regularly 
-                                compared to those who haven’t.</p>
-                        </div>
+                    <div className='pt-10 md:pb-10 text-white text-l md:text-xl items-center w-full'>
+                        <p className='font-bold pb-4'>How can these features enhance the user satisfaction with Spotify ?</p>
                     </div>
-                    
-                    <div className='py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
-                        <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
-                            <p className="font-bold text-l md:text-xl">Quantitative</p>
-                            <div className="border-b-2 border-gray-400 w-16 ml-4" />
-                        </div>
-                        <div className="text-white text-l md:text-xl md:w-3/5">
-                            <p>1. Adoption Rate: Track the percentage of Instagram users who have adopted and actively use the new enhancements after their rollout.</p>
-                            <p>2. Engagement Metrics: Measure changes in key engagement metrics such as the number of views, likes, and comments on Stories that have
-                                 utilized the enhancements.</p>
-                            <p>3. Conversion from Third-party Apps: Monitor the percentage of users who transition from using third-party apps for similar features to 
-                                using the native Instagram enhancements.</p>
-                            <p>4. Growth in Story Usage: Analyze if there is an increase in the frequency and duration of Instagram Story posting by users after the 
-                                introduction of the new features.</p>
-                            <p>5. User Reach: Assess whether the new enhancements lead to an increase in the reach and visibility of Stories, as measured by the number of unique viewers.</p>
-                            <p></p>
-                        </div>
+
+                    <div className='pb-4 md:pb-10 text-white text-l md:text-xl items-center w-full'>
+                        <p className='font-bold pb-4'>Relevance and Personalization</p>
+                        <p>💚 Users can discover music that resonates with their regional or local preferences. It makes the listening experience more relevant, as it showcases what's popular in their area.</p>
+                            <p>💚 Instant song recognition enables users to identify and 
+                                enjoy songs they hear in their surroundings. This feature 
+                                caters to immediate music preferences, making the experience 
+                                highly personalized.</p>
                     </div>
+
+                    <div className='pb-4 md:pb-10 text-white text-l md:text-xl items-center w-full'>
+                        <p className='font-bold pb-4'>Community Engagement</p>
+                        <p>❤️ Users feel connected to their local music community, as they can see what their neighbors are listening to. This fosters a sense of belonging and community engagement.</p>
+                    </div>
+
+                    <div className='pb-4 md:pb-10 text-white text-l md:text-xl items-center w-full'>
+                        <p className='font-bold pb-4'>Discovery and Exploration</p>
+                        <p>🧡 Users can explore local music scenes, discover emerging artists, and enjoy songs that are trending in their region. It encourages musical exploration beyond mainstream hits.</p>
+                            <p>🧡 It facilitates spontaneous music discovery. When users hear a song they like, they can identify it instantly and add it to their playlists or library, expanding their musical horizons.</p>
+                    </div>
+
+                    <div className='pb-4 md:pb-10 text-white text-l md:text-xl items-center w-full'>
+                        <p className='font-bold pb-4'>Timeliness</p>
+                        <p>💜 Real-time updates keep users informed about the latest music trends and releases in their area. It ensures they are always up-to-date with the local music scene.</p>
+                            <p>💜 Users can identify songs as they hear them, preventing the frustration of not knowing a song's title or artist in real-time.</p>
+                    </div>
+
 
                     <div className='py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
                         <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
@@ -254,9 +230,7 @@ The Spotify Localized Content Case Study aims to delve into how Spotify leverage
                             <div className="border-b-2 border-gray-400 w-16 ml-4" />
                         </div>
                         <div className="text-white text-l md:text-xl md:w-3/5">
-                            <p>Throughout this case study, I’ve gained valuable insights into the significance of customization for users and how it can greatly impact 
-                                their experience. Understanding their desires for greater control over their content made me realize the importance of crafting features 
-                                that cater to their unique preferences and needs.</p>
+                            <p>From this case study, I've learned that users have a strong desire to feel connected to their community. Whether it's through shared music tastes, discovering local artists, or participating in music-related discussions, the sense of belonging to a musical community plays a vital role in their satisfaction. This connection not only fosters engagement but also enhances the overall user experience, as it creates a sense of unity and shared musical journey.</p>
                         </div>
                     </div>
 
