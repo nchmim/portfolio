@@ -177,7 +177,7 @@ The Spotify Localized Content Case Study aims to delve into how Spotify leverage
                     <div className='py-4 md:pb-10 text-white text-l md:text-xl items-center w-full'>
                         <p className='font-bold pb-4'>Solutions</p>
                         <p>After ideating and carefully execute solutions based on user needs, 
-                            I've amalgamated two impactful features: Localized Popularity Charts 
+                            I've combined two impactful features: Localized Popularity Charts 
                             and Nearby Music Discovery. These particular features resonate most 
                             strongly with user needs, as they cater to the desire for real-time 
                             access to popular music in their vicinity while also fulfilling the 
