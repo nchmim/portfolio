@@ -22,7 +22,7 @@ export default function MyApp() {
         <div className="hidden md:block"> {/* Big Version Only */}
           <p className="text-white my-7 text-xl md:text-2xl lg:text-3xl">
             <span className="leading-10">
-              A <span className="font-bold">product designer</span> with a <span className="font-bold">visual design</span> background aiming to create a valuable experience for everyone.
+              A <span className="font-bold">product designer</span> with a <span className="font-bold">visual design</span> background aiming to simplify your life.
             </span>
           </p>
           {isFromResume ? null : <p className="text-white my-7 text-xl md:text-2xl lg:text-3xl leading-relaxed">
@@ -37,7 +37,7 @@ export default function MyApp() {
       </div>
       <div className="md:hidden"> {/* Mobile Version Only */}
         <p className="text-white my-7 text-xl leading-relaxed">
-          A <span className="font-bold">product designer</span> with a <span className="font-bold">visual design</span> background aiming to create a valuable experience for everyone.
+          A <span className="font-bold">product designer</span> with a <span className="font-bold">visual design</span> background aiming to simplify your life.
         </p>
         <p className="text-white my-7 text-xl leading-relaxed">I am currently pursuing a<span className="font-bold"> Master’s degree in Interaction and UX/UI Design.</span></p>
       </div>
@@ -104,6 +104,14 @@ export default function MyApp() {
           </Link>
           <p className="mt-4 text-white lg:text-xl font-bold">NAYA Redesign</p>
           <p className="text-white lg:text-l">Rebranding</p>
+        </div>
+
+        <div>
+          <Link href="/audixaau">
+            <img src="/images/zenith_cover.png" alt="AUDIxAAU" className="w-full h-auto" />
+          </Link>
+          <p className="mt-4 text-white lg:text-xl font-bold">AUDI x ZENITH</p>
+          <p className="text-white lg:text-l">UX / UI</p>
         </div>
 
       </div></section>
