@@ -280,8 +280,8 @@ export default function MyApp() {
 
                     <div className='flex items-center justify-center my-10 md:my-20'>
                         <iframe
-                            width="760"
-                            height="515"
+                            width="960"
+                            height="715"
                             src="https://www.youtube.com/embed/qK0tlksnpQA"
                             title="YouTube video player"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

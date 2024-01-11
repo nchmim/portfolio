@@ -9,7 +9,7 @@ export default function MyApp() {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-y-7 my-7 gap-x-4 items-center">
                         <div>
                             <div>
-                                <img src="/images/nchprofile03.jpg" alt="HealthPath" className="w-full md:w-2/3 h-auto" />
+                                <img src="/images/nchmimprofile.jpg" alt="HealthPath" className="w-full md:w-2/3 h-auto" />
                             </div>
                         </div>
                         <div className="text-white text-l md:text-xl w-full">
