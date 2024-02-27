@@ -18,16 +18,16 @@ export default function MyApp() {
   return (<Layout home>
     <div className="font-light flex flex-col justify-center md:flex-row md:inline-flex md:items-center md:mt-56 md:mb-64">
       <div className="md:w-1/2 md:ml-24">
-        <p className="text-white my-7 text-3xl  leading-relaxed">Hello, I am <span className="font-bold">NUTCHA</span></p>
+        <p className="text-white my-7 text-3xl  leading-relaxed">Hello, I am <span className="font-semibold">NUTCHA</span></p>
         <div className="hidden md:block"> {/* Big Version Only */}
           <p className="text-white my-7 text-xl md:text-2xl lg:text-3xl">
             <span className="leading-10">
-              A <span className="font-bold">product designer</span> with a <span className="font-bold">visual design</span> background aiming to simplify your life.
+              A <span className="font-semibold">product designer</span> with a focus on <span className="font-semibold">visual design</span> and <span className="font-semibold">hi-fidelity prototyping.</span>
             </span>
           </p>
           {isFromResume ? null : <p className="text-white my-7 text-xl md:text-2xl lg:text-3xl leading-relaxed">
             <span className="leading-10">
-              I am currently pursuing a <span className="font-bold">Master’s degree in Interaction and UX/UI Design.</span>
+              I am currently pursuing a <span className="font-semibold">Master’s degree in Interaction and UX/UI Design.</span>
             </span>
           </p>}
         </div>
@@ -59,12 +59,13 @@ export default function MyApp() {
           <p className="text-white lg:text-l">UX / UI</p>
         </div>
         <div>
-          <Link href="/CinemAR">
-            <img src="/images/CinemARCover.gif" alt="CinemAR" className="w-full h-auto" />
+          <Link href="/spotify">
+            <img src="/images/spotify_cover.png" alt="Spotify" className="w-full h-auto" />
           </Link>
-          <p className="mt-4 text-white lg:text-xl font-bold">CinemAR</p>
-          <p className="text-white lg:text-l">AR | UX / UI</p>
+          <p className="mt-4 text-white lg:text-xl font-bold">Spotify Case Study</p>
+          <p className="text-white lg:text-l">UX / UI</p>
         </div>
+        
         <div>
           <Link href="/VRWorkspace">
             <img src="/images/VR_wsp_01.gif" alt="VRWorkspace" className="w-full h-auto" />
@@ -91,11 +92,11 @@ export default function MyApp() {
         
 
         <div>
-          <Link href="/spotify">
-            <img src="/images/spotify_cover.png" alt="Spotify" className="w-full h-auto" />
+          <Link href="/CinemAR">
+            <img src="/images/CinemARCover.gif" alt="CinemAR" className="w-full h-auto" />
           </Link>
-          <p className="mt-4 text-white lg:text-xl font-bold">Spotify Case Study</p>
-          <p className="text-white lg:text-l">UX / UI</p>
+          <p className="mt-4 text-white lg:text-xl font-bold">CinemAR</p>
+          <p className="text-white lg:text-l">AR | UX / UI</p>
         </div>
 
         <div>

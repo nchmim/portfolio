@@ -15,17 +15,23 @@ export default function MyApp() {
                         <div className="text-white text-l md:text-xl w-full">
                             <p className="text-white font-bold text-xl md:text-2xl my-4">About Me</p>
                             <p>I'm currently pursuing my Master's degree at Academy of Art University (San Francisco, CA), majoring in Interaction & UX/UI Design.
-                                I recently graduated from Mahidol University International College (Bangkok, Thailand) majoring in Communication Design.</p>
+                            come from a visual design background, and I want to continue serving my designs to connect people with technology.</p>
                             <p className='py-4'>
                                 As a designer, I am passionate about creating designs that are not only aesthetically pleasing but also serve a purpose.
                                 I believe that good design has the power to solve real-world problems and improve people's lives. I strive to create intuitive
-                                and engaging experiences that make people's lives simpler as well as more enjoyable with each project.
+                                and engaging experiences that make people's lives simpler as well as more enjoyable with each project. 
                             </p>
-                            <p className='py-2'>
-                                Let's get in touch !
+                            <p className='pb-4'>
+                            Apart from my interest in digital design, I also have a strong passion for fashion and styling!</p>
+                           
+                            <p className='py-4'>
+                                Let's get in touch & Learn more about me
                             </p>
                             <p>
                                 nutchamim@gmail.com
+                            </p>
+                            <p>
+                                IG : @nchmim
                             </p>
                             {/* <p className='py-2'>
                                 @nchmim

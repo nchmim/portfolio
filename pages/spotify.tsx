@@ -58,7 +58,7 @@ The Spotify Localized Content Case Study aims to delve into how Spotify leverage
                             <div className="border-b-2 border-gray-400 w-16 ml-4" />
                         </div>
                         <div className="text-white text-l md:text-xl md:w-3/5">
-                            <p>Create a more <span className="font-medium" style={{ color: "#F0913E" }}>inclusive</span>, <span className="font-medium" style={{ color: "#EB5640" }}>culturally relevant</span>, and <span className="font-medium" style={{ color: "#8C3EF0" }}>engaging</span> experience for users across different regions and languages.</p>
+                            <p>Create a more <span className="font-medium" style={{ color: "#F0913E" }}>inclusive</span>, <span className="font-medium" style={{ color: "#EB5640" }}>culturally relevant</span>, and <span className="font-medium" style={{ color: "#A97FD3" }}>engaging</span> experience for users across different regions and languages.</p>
                         </div>
                     </div>
 

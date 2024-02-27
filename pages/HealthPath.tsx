@@ -47,7 +47,7 @@ export default function MyApp() {
               <p>
                 <span className="font-medium text-xl md:text-3xl" style={{ color: "#F37601" }}>79%</span> of Americans say they're likely to
                 <span className="font-medium" style={{ color: "#F37601" }}> revert</span> to previous <span className="font-medium" style={{ color: "#F37601" }}>eating behaviors </span>
-                after completing or giving up on a diet.
+                after completing or giving up on a diet, indicating a failure to develop lasting healthy behaviors.
               </p>
             </div>
           </div>
