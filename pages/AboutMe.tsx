@@ -13,7 +13,7 @@ export default function MyApp() {
                             </div>
                         </div>
                         <div className="text-white text-l md:text-xl w-full">
-                            <p className="text-white font-bold text-xl md:text-2xl my-4">About Me</p>
+                            <p className="text-white font-semibold text-xl md:text-2xl my-4">About Me</p>
                             <p>I'm currently pursuing my Master's degree at Academy of Art University (San Francisco, CA), majoring in Interaction & UX/UI Design.
                             come from a visual design background, and I want to continue serving my designs to connect people with technology.</p>
                             <p className='py-4'>

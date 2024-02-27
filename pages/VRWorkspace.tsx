@@ -6,7 +6,7 @@ export default function MyApp() {
             <div className='space-y-16 font-light flex flex-col'>
                 <div className='md:inline-flex md:space-x-10 mt-10 items-center'>
                     <div className='md:w-2/5'>
-                        <p className="font-bold text-white text-xl md:text-2xl">
+                        <p className="font-semibold text-white text-xl md:text-2xl">
                             VR Workspace
                         </p>
                         <p className="text-white text-l md:text-xl">Spatial UX / UI</p>
@@ -24,7 +24,7 @@ export default function MyApp() {
                     <div className='md:inline-flex md:space-x-10 mt-10 items-center w-full'>
 
                         <div className="text-white my-7 text-l md:text-xl md:w-2/5">
-                            <p className="font-bold text-l md:text-xl mt-4">Role</p>
+                            <p className="font-semibold text-l md:text-xl mt-4">Role</p>
                             <p>UX/UI Designer</p>
                         </div>
                         <div className="text-white text-l md:text-xl md:w-3/5">
@@ -38,7 +38,7 @@ export default function MyApp() {
 
                     <div className='py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
                         <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
-                            <p className="font-bold text-l md:text-xl">Goal</p>
+                            <p className="font-semibold text-l md:text-xl">Goal</p>
                             <div className="border-b-2 border-gray-400 w-16 ml-4" />
                         </div>
                         <div className="text-white text-l md:text-xl md:w-3/5">
@@ -49,7 +49,7 @@ export default function MyApp() {
 
                     <div className='py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
                         <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
-                            <p className="font-bold text-l md:text-xl">Brainstorm</p>
+                            <p className="font-semibold text-l md:text-xl">Brainstorm</p>
                             <div className="border-b-2 border-gray-400 w-16 ml-4" />
                         </div>
                         <div className="text-white text-l md:text-xl md:w-3/5">
@@ -77,7 +77,7 @@ export default function MyApp() {
 
                     <div className='py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
                         <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
-                            <p className="font-bold text-l md:text-xl">Sketches</p>
+                            <p className="font-semibold text-l md:text-xl">Sketches</p>
                             <div className="border-b-2 border-gray-400 w-16 ml-4" />
                         </div>
                         <div className="text-white text-l md:text-xl md:w-3/5">
@@ -114,7 +114,7 @@ export default function MyApp() {
 
                     <div className='py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
                         <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
-                            <p className="font-bold text-l md:text-xl">Planning</p>
+                            <p className="font-semibold text-l md:text-xl">Planning</p>
                             <div className="border-b-2 border-gray-400 w-16 ml-4" />
                         </div>
                         <div className="text-white text-l md:text-xl md:w-3/5">
@@ -155,7 +155,7 @@ export default function MyApp() {
 
                     <div className='py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
                         <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
-                            <p className="font-bold text-l md:text-xl">Interaction</p>
+                            <p className="font-semibold text-l md:text-xl">Interaction</p>
                             <div className="border-b-2 border-gray-400 w-16 ml-4" />
                         </div>
                         <div className="text-white text-l md:text-xl md:w-3/5">
@@ -174,7 +174,7 @@ export default function MyApp() {
 
                     <div className='py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
                         <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
-                            <p className="font-bold text-l md:text-xl">Design</p>
+                            <p className="font-semibold text-l md:text-xl">Design</p>
                             <div className="border-b-2 border-gray-400 w-16 ml-4" />
                         </div>
                         <div className="text-white text-l md:text-xl md:w-3/5">
@@ -228,7 +228,7 @@ export default function MyApp() {
 
                     <div className='pb-10 md:pb-20 md:inline-flex md:space-x-10s items-center w-full'>
                         <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
-                            <p className="font-bold text-l md:text-xl">Thoughts</p>
+                            <p className="font-semibold text-l md:text-xl">Thoughts</p>
                             <div className="border-b-2 border-gray-400 w-16 ml-4" />
                         </div>
                         <div className="text-white text-l md:text-xl md:w-3/5">

@@ -9,7 +9,7 @@ export default function MyApp() {
                    
                 <div className='md:inline-flex md:space-x-10 mt-10 items-center'>
           <div className='md:w-3/5'>
-            <p className="font-bold text-white text-2xl md:text-3xl">
+            <p className="font-semibold text-white text-2xl md:text-3xl">
               Welcome to My Playground
             </p>
             <p className="text-white my-4 md:my-7 text-l md:text-xl">

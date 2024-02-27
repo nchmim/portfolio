@@ -6,7 +6,7 @@ export default function MyApp() {
             <div className='space-y-16 font-light flex flex-col'>
                 <div className='md:inline-flex md:space-x-10 mt-10 items-center'>
                     <div className='md:w-2/5'>
-                        <p className="font-bold text-white text-xl md:text-2xl">
+                        <p className="font-semibold text-white text-xl md:text-2xl">
                             Spotify Case Study
                         </p>
                         <p className="text-white text-l md:text-xl">UX / UI</p>
@@ -24,7 +24,7 @@ The Spotify Localized Content Case Study aims to delve into how Spotify leverage
                     <div className='md:inline-flex md:space-x-10 mt-10 items-center w-full'>
 
                         <div className="text-white my-7 text-l md:text-xl md:w-2/5">
-                            <p className="font-bold text-l md:text-xl mt-4">Role</p>
+                            <p className="font-semibold text-l md:text-xl mt-4">Role</p>
                             <p>UX/UI Designer</p>
                         </div>
                         <div className="text-white text-l md:text-xl md:w-3/5">
@@ -43,7 +43,7 @@ The Spotify Localized Content Case Study aims to delve into how Spotify leverage
 
                     <div className='py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
                         <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
-                            <p className="font-bold text-l md:text-xl">Overview</p>
+                            <p className="font-semibold text-l md:text-xl">Overview</p>
                             <div className="border-b-2 border-gray-400 w-16 ml-4" />
                         </div>
                         <div className="text-white text-l md:text-xl md:w-3/5">
@@ -54,7 +54,7 @@ The Spotify Localized Content Case Study aims to delve into how Spotify leverage
                     </div>
                     <div className='py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
                         <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
-                            <p className="font-bold text-l md:text-xl">GOAL</p>
+                            <p className="font-semibold text-l md:text-xl">GOAL</p>
                             <div className="border-b-2 border-gray-400 w-16 ml-4" />
                         </div>
                         <div className="text-white text-l md:text-xl md:w-3/5">
@@ -64,7 +64,7 @@ The Spotify Localized Content Case Study aims to delve into how Spotify leverage
 
                     <div className='py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
             <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
-              <p className="font-bold text-l md:text-xl">Research</p>
+              <p className="font-semibold text-l md:text-xl">Research</p>
               <div className="border-b-2 border-gray-400 w-16 ml-4" />
             </div>
             <div className="text-white text-l md:text-xl md:w-3/5">
@@ -79,7 +79,7 @@ The Spotify Localized Content Case Study aims to delve into how Spotify leverage
 
           <div className='py-2 md:py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
             <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
-              <p className="font-bold text-l md:text-xl">User Research</p>
+              <p className="font-semibold text-l md:text-xl">User Research</p>
               <div className="border-b-2 border-gray-400 w-16 ml-4" />
             </div>
             <div className="bg-neutral-700 rounded-lg py-4 px-10 md:px-20 py-10 text-white text-l md:text-xl md:w-3/5">
@@ -117,7 +117,7 @@ The Spotify Localized Content Case Study aims to delve into how Spotify leverage
 
           <div className='py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
                         <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
-                            <p className="font-bold text-l md:text-xl">Define Problem</p>
+                            <p className="font-semibold text-l md:text-xl">Define Problem</p>
                             <div className="border-b-2 border-gray-400 w-16 ml-4" />
                         </div>
                         <div className="text-white text-l md:text-xl md:w-3/5">
@@ -132,7 +132,7 @@ The Spotify Localized Content Case Study aims to delve into how Spotify leverage
 
                     <div className='py-2 md:py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
             <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
-              <p className="font-bold text-l md:text-xl">Ideate</p>
+              <p className="font-semibold text-l md:text-xl">Ideate</p>
               <div className="border-b-2 border-gray-400 w-16 ml-4" />
             </div>
             <div className="bg-neutral-700 rounded-lg py-4 px-10 md:px-20 py-10 text-white text-l md:text-xl md:w-3/5">
@@ -158,7 +158,7 @@ The Spotify Localized Content Case Study aims to delve into how Spotify leverage
                  
  <div className='py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
                         <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
-                            <p className="font-bold text-l md:text-xl">Thoughtful Execution</p>
+                            <p className="font-semibold text-l md:text-xl">Thoughtful Execution</p>
                             <div className="border-b-2 border-gray-400 w-16 ml-4" />
                         </div>
                         <div className="text-white text-l md:text-xl md:w-3/5">
@@ -175,7 +175,7 @@ The Spotify Localized Content Case Study aims to delve into how Spotify leverage
                     </div>
 
                     <div className='py-4 md:pb-10 text-white text-l md:text-xl items-center w-full'>
-                        <p className='font-bold pb-4'>Solutions</p>
+                        <p className='font-semibold pb-4'>Solutions</p>
                         <p>After ideating and carefully execute solutions based on user needs, 
                             I've combined two impactful features: Localized Popularity Charts 
                             and Nearby Music Discovery. These particular features resonate most 
@@ -194,11 +194,11 @@ The Spotify Localized Content Case Study aims to delve into how Spotify leverage
                     </div>
 
                     <div className='pt-10 md:pb-10 text-white text-l md:text-xl items-center w-full'>
-                        <p className='font-bold pb-4'>How can these features enhance the user satisfaction with Spotify ?</p>
+                        <p className='font-semibold pb-4'>How can these features enhance the user satisfaction with Spotify ?</p>
                     </div>
 
                     <div className='pb-4 md:pb-10 text-white text-l md:text-xl items-center w-full'>
-                        <p className='font-bold pb-4'>Relevance and Personalization</p>
+                        <p className='font-semibold pb-4'>Relevance and Personalization</p>
                         <p>💚 Users can discover music that resonates with their regional or local preferences. It makes the listening experience more relevant, as it showcases what's popular in their area.</p>
                             <p>💚 Instant song recognition enables users to identify and 
                                 enjoy songs they hear in their surroundings. This feature 
@@ -207,18 +207,18 @@ The Spotify Localized Content Case Study aims to delve into how Spotify leverage
                     </div>
 
                     <div className='pb-4 md:pb-10 text-white text-l md:text-xl items-center w-full'>
-                        <p className='font-bold pb-4'>Community Engagement</p>
+                        <p className='font-semibold pb-4'>Community Engagement</p>
                         <p>❤️ Users feel connected to their local music community, as they can see what their neighbors are listening to. This fosters a sense of belonging and community engagement.</p>
                     </div>
 
                     <div className='pb-4 md:pb-10 text-white text-l md:text-xl items-center w-full'>
-                        <p className='font-bold pb-4'>Discovery and Exploration</p>
+                        <p className='font-semibold pb-4'>Discovery and Exploration</p>
                         <p>🧡 Users can explore local music scenes, discover emerging artists, and enjoy songs that are trending in their region. It encourages musical exploration beyond mainstream hits.</p>
                             <p>🧡 It facilitates spontaneous music discovery. When users hear a song they like, they can identify it instantly and add it to their playlists or library, expanding their musical horizons.</p>
                     </div>
 
                     <div className='pb-4 md:pb-10 text-white text-l md:text-xl items-center w-full'>
-                        <p className='font-bold pb-4'>Timeliness</p>
+                        <p className='font-semibold pb-4'>Timeliness</p>
                         <p>💜 Real-time updates keep users informed about the latest music trends and releases in their area. It ensures they are always up-to-date with the local music scene.</p>
                             <p>💜 Users can identify songs as they hear them, preventing the frustration of not knowing a song's title or artist in real-time.</p>
                     </div>
@@ -226,7 +226,7 @@ The Spotify Localized Content Case Study aims to delve into how Spotify leverage
 
                     <div className='py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
                         <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
-                            <p className="font-bold text-l md:text-xl">What I've learned from this project ?</p>
+                            <p className="font-semibold text-l md:text-xl">What I've learned from this project ?</p>
                             <div className="border-b-2 border-gray-400 w-16 ml-4" />
                         </div>
                         <div className="text-white text-l md:text-xl md:w-3/5">

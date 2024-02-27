@@ -6,7 +6,7 @@ export default function MyApp() {
             <div className='space-y-16 font-light flex flex-col'>
                 <div className='md:inline-flex md:space-x-10 mt-10 items-center'>
                     <div className='md:w-2/5'>
-                        <p className="font-bold text-white text-xl md:text-2xl">
+                        <p className="font-semibold text-white text-xl md:text-2xl">
                             NAYA
                         </p>
                         <p className="text-white text-l md:text-xl">Rebranding</p>
@@ -21,9 +21,9 @@ export default function MyApp() {
                 <div className='md:mx-[5vw]'>
                     <div className='md:inline-flex md:space-x-10 md:mt-10 items-center w-full'>
                         <div className="text-white my-7 text-l md:text-xl md:w-2/5">
-                            <p className="font-bold text-l md:text-xl">Duration</p>
+                            <p className="font-semibold text-l md:text-xl">Duration</p>
                             <p>2 weeks</p>
-                            <p className="font-bold text-l md:text-xl mt-4">Role</p>
+                            <p className="font-semibold text-l md:text-xl mt-4">Role</p>
                             <p>Graphic Designer</p>
                         </div>
                         <div className="text-white text-l md:text-xl md:w-3/5">

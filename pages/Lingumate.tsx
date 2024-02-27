@@ -6,7 +6,7 @@ export default function MyApp() {
             <div className='space-y-16 font-light flex flex-col'>
                 <div className='md:inline-flex md:space-x-10 mt-10 items-center'>
                     <div className='md:w-2/5'>
-                        <p className="font-bold text-white text-xl md:text-2xl">
+                        <p className="font-semibold text-white text-xl md:text-2xl">
                             Lingumate
                         </p>
                         <p className="text-white text-l md:text-xl">UX / UI</p>
@@ -22,11 +22,11 @@ export default function MyApp() {
                 <div className='md:mx-[5vw]'>
                     <div className='md:inline-flex md:space-x-10 mt-10 items-center w-full'>
                         <div className="text-white my-7 text-l md:text-xl md:w-2/5">
-                            <p className="font-bold text-l md:text-xl">Duration</p>
+                            <p className="font-semibold text-l md:text-xl">Duration</p>
                             <p>2 Months</p>
-                            <p className="font-bold text-l md:text-xl mt-4">Team</p>
+                            <p className="font-semibold text-l md:text-xl mt-4">Team</p>
                             <p>Nutcha / Punnath</p>
-                            <p className="font-bold text-l md:text-xl mt-4">Role</p>
+                            <p className="font-semibold text-l md:text-xl mt-4">Role</p>
                             <p>UX Researcher / UX Designer</p>
                         </div>
                         <div className="text-white text-l md:text-xl md:w-3/5">
@@ -45,7 +45,7 @@ export default function MyApp() {
 
                     <div className='py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
                         <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
-                            <p className="font-bold text-l md:text-xl">Research</p>
+                            <p className="font-semibold text-l md:text-xl">Research</p>
                             <div className="border-b-2 border-gray-400 w-16 ml-4" />
                         </div>
                         <div className="text-white text-l md:text-xl md:w-3/5">
@@ -60,28 +60,28 @@ export default function MyApp() {
 
                     <div className='py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
                         <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
-                            <p className="font-bold text-l md:text-xl">User Survey</p>
+                            <p className="font-semibold text-l md:text-xl">User Survey</p>
                             <div className="border-b-2 border-gray-400 w-16 ml-4" />
                         </div>
                         <div className="text-white text-l md:text-xl md:w-3/5">
-                            <p className='mt-4 font-bold'>Q : How important do you think personalization is for language learning apps?</p>
+                            <p className='mt-4 font-semibold'>Q : How important do you think personalization is for language learning apps?</p>
                             <p className='mt-4 font-medium'>From scale 1 - 5</p>
-                            <p className='mt-4 font-medium'>22/27 people consider it highly significant. <span className="font-bold text-3xl" style={{ color: "#A8A7C0" }}>81.48%</span></p>
-                            <p className='mt-10 font-bold'>Q : How do you measure your progress in learning a new language?</p>
-                            <p className='mt-4 font-medium'><span className="font-bold text-3xl" style={{ color: "#A8A7C0" }}>60%</span><span className="font-medium" style={{ color: "#A8A7C0" }}>  Measuring fluency </span>
+                            <p className='mt-4 font-medium'>22/27 people consider it highly significant. <span className="font-semibold text-3xl" style={{ color: "#A8A7C0" }}>81.48%</span></p>
+                            <p className='mt-10 font-semibold'>Q : How do you measure your progress in learning a new language?</p>
+                            <p className='mt-4 font-medium'><span className="font-semibold text-3xl" style={{ color: "#A8A7C0" }}>60%</span><span className="font-medium" style={{ color: "#A8A7C0" }}>  Measuring fluency </span>
                                 (e.g. ability to have conversations)</p>
-                            <p className='mt-4 font-medium'><span className="font-bold text-3xl" style={{ color: "#A8A7C0" }}>40%</span><span className="font-medium" style={{ color: "#A8A7C0" }}>  Achieving specific learning goals </span>
+                            <p className='mt-4 font-medium'><span className="font-semibold text-3xl" style={{ color: "#A8A7C0" }}>40%</span><span className="font-medium" style={{ color: "#A8A7C0" }}>  Achieving specific learning goals </span>
                                 (e.g.passing a language proficiency test)</p>
                         </div>
                     </div>
 
                     <div className='py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
                         <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
-                            <p className="font-bold text-l md:text-xl">User Interview</p>
+                            <p className="font-semibold text-l md:text-xl">User Interview</p>
                             <div className="border-b-2 border-gray-400 w-16 ml-4" />
                         </div>
                         <div className="text-white text-l md:text-xl md:w-3/5">
-                            <p className='mt-4 font-bold'>Q : How important do you think personalization is for language learning apps?</p>
+                            <p className='mt-4 font-semibold'>Q : How important do you think personalization is for language learning apps?</p>
                             <p className='my-4 font-medium'>3/3 people consider it highly significant.</p>
                             <div className="bg-neutral-700 rounded-lg py-4 px-10 md:px-20 py-10 text-white text-l md:text-xl">
                                 <p className='font-medium'>💜 Should prioritize personalization based on individual learning styles, pace, and objectives.</p>
@@ -101,7 +101,7 @@ export default function MyApp() {
                         <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
                         </div>
                         <div className="text-white text-l md:text-xl md:w-3/5">
-                            <p className='my-4 font-bold'>Q : What are your overall thoughts on the potential of AI-powered language learning apps to revolutionize language education?</p>
+                            <p className='my-4 font-semibold'>Q : What are your overall thoughts on the potential of AI-powered language learning apps to revolutionize language education?</p>
                             <div className="bg-neutral-700 rounded-lg py-4 px-10 md:px-20 py-10 text-white text-l md:text-xl">
                                 <p className='font-medium'>💜 Delivering effective, personalized, and engaging learning experiences.</p>
                             </div>
@@ -120,7 +120,7 @@ export default function MyApp() {
                         <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
                         </div>
                         <div className="text-white text-l md:text-xl md:w-3/5">
-                            <p className='my-4 font-bold'>Q : How important is instant feedback and correction in language learning apps?</p>
+                            <p className='my-4 font-semibold'>Q : How important is instant feedback and correction in language learning apps?</p>
                             <p className='my-4 font-medium'>2/3 people consider it highly significant.</p>
                         </div>
                     </div>
@@ -135,31 +135,31 @@ export default function MyApp() {
 
                     <div className='py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
                         <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
-                            <p className="font-bold text-l md:text-xl">Learning from Insights</p>
+                            <p className="font-semibold text-l md:text-xl">Learning from Insights</p>
                             <div className="border-b-2 border-gray-400 w-16 ml-4" />
                         </div>
                         <div className="text-white text-l md:text-xl md:w-3/5">
-                            <p className='mt-4'><span className="font-bold" style={{ color: "#A8A7C0" }}>Limited time</span> : Many language learners face the obstacle of having limited time available to study and practice, which can slow down progress and make it harder to achieve their goals.</p>
-                            <p className='mt-4'><span className="font-bold" style={{ color: "#A8A7C0" }}>Goal to communicate</span> : For many language learners, the main goal is to be able to communicate effectively in the new language, whether it's for personal or professional reasons.</p>
-                            <p className='mt-4'><span className="font-bold" style={{ color: "#A8A7C0" }}>Desire to track progress</span> : Learners often want to be able to track their progress over time, whether through formal assessments or informal measures such as conversations with native speakers or keeping a language learning journal.</p>
+                            <p className='mt-4'><span className="font-semibold" style={{ color: "#A8A7C0" }}>Limited time</span> : Many language learners face the obstacle of having limited time available to study and practice, which can slow down progress and make it harder to achieve their goals.</p>
+                            <p className='mt-4'><span className="font-semibold" style={{ color: "#A8A7C0" }}>Goal to communicate</span> : For many language learners, the main goal is to be able to communicate effectively in the new language, whether it's for personal or professional reasons.</p>
+                            <p className='mt-4'><span className="font-semibold" style={{ color: "#A8A7C0" }}>Desire to track progress</span> : Learners often want to be able to track their progress over time, whether through formal assessments or informal measures such as conversations with native speakers or keeping a language learning journal.</p>
                         </div>
                     </div>
 
                     <div className='py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
                         <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
-                            <p className="font-bold text-l md:text-xl">Ideate</p>
+                            <p className="font-semibold text-l md:text-xl">Ideate</p>
                             <div className="border-b-2 border-gray-400 w-16 ml-4" />
                         </div>
                         <div className="bg-neutral-700 rounded-lg py-4 px-10 md:px-20 text-white text-l md:text-xl md:w-3/5">
-                            <p className='mt-4 font-bold'>Target Audience</p>
-                            <p className='mt-4'><span className="font-bold" style={{ color: "#A8A7C0" }}>Student</span> study foreign languages.</p>
-                            <p className='mt-4'><span className="font-bold" style={{ color: "#A8A7C0" }}>Travelers</span> wanting to communicate effectively in different countries.</p>
-                            <p className='mt-4'><span className="font-bold" style={{ color: "#A8A7C0" }}>Professionals</span> seeking to improve language skills for career advancement.</p>
+                            <p className='mt-4 font-semibold'>Target Audience</p>
+                            <p className='mt-4'><span className="font-semibold" style={{ color: "#A8A7C0" }}>Student</span> study foreign languages.</p>
+                            <p className='mt-4'><span className="font-semibold" style={{ color: "#A8A7C0" }}>Travelers</span> wanting to communicate effectively in different countries.</p>
+                            <p className='mt-4'><span className="font-semibold" style={{ color: "#A8A7C0" }}>Professionals</span> seeking to improve language skills for career advancement.</p>
                         </div>
                     </div>
 
                     <div className="mt-14 mb-4 md:mt-20 flex justify-center text-white text-l md:text-xl">
-                        <p className='font-bold'>Affinity Map</p>
+                        <p className='font-semibold'>Affinity Map</p>
                     </div>
                     <div className='md:inline-flex md:space-x-10 mt-10 mb-10 md:mb-20 items-center justify-center w-full'>
                         <img className="md:w-3/4" src="/images/lingumate-affinity.png" alt="Lingumate" />
@@ -168,7 +168,7 @@ export default function MyApp() {
 
                     <div className="flex justify-center">
                         <div className="bg-neutral-700 rounded-lg py-4 md:py-10 px-10 md:px-20 text-white text-l md:text-xl md:w-3/5">
-                            <p className="mt-4 font-bold">How Might We</p>
+                            <p className="mt-4 font-semibold">How Might We</p>
                             <p className="mt-4">How might we help users <span className="font-medium" style={{ color: "#A8A7C0" }}>track</span> their <span className="font-medium" style={{ color: "#A8A7C0" }}>progress</span> and <span className="font-medium" style={{ color: "#A8A7C0" }}>set achievable goals</span> for language learning?</p>
                             <p className="mt-4">How might we provide <span className="font-medium" style={{ color: "#A8A7C0" }}>personalized recommendations</span> for language learning <span className="font-medium" style={{ color: "#A8A7C0" }}>resources</span> based on the user's skill level?</p>
                             <p className="mt-4">How might we integrate language learning into users' <span className="font-medium" style={{ color: "#A8A7C0" }}>daily routines</span> and make it more <span className="font-medium" style={{ color: "#A8A7C0" }}>convenient</span> for them to <span className="font-medium" style={{ color: "#A8A7C0" }}>practice regularly</span>?</p>
@@ -177,12 +177,12 @@ export default function MyApp() {
 
                     <div className=" py-10 flex justify-center">
                         <div className="bg-neutral-700 rounded-lg py-4 md:py-10 px-10 md:px-20 text-white text-l md:text-xl md:w-3/5">
-                            <p className="mt-4 font-bold">Solution</p>
+                            <p className="mt-4 font-semibold">Solution</p>
                             <p className="mt-4">Imagine an impact of personalized insights that drive language learners to unlocking their full potential and accelerating their language learning journey.</p>
                         </div></div>
 
                     <div className="my-10 flex justify-center text-white text-l md:text-xl">
-                        <p className='font-bold'>Idea Brainstorming</p>
+                        <p className='font-semibold'>Idea Brainstorming</p>
                     </div>
 
                     <div className="flex justify-center">
@@ -195,7 +195,7 @@ export default function MyApp() {
                     </div>
 
                     {/* <div className="mt-14 mb-4 md:mt-20 flex justify-center text-white text-l md:text-xl">
-                        <p className='font-bold'>Concept Refinement</p>
+                        <p className='font-semibold'>Concept Refinement</p>
                     </div>
 
                     <div className='md:inline-flex md:space-x-10 my-10 items-center justify-center w-full'>
@@ -206,14 +206,14 @@ export default function MyApp() {
                     </div> */}
 
                     <div className="mt-14 mb-4 md:mt-20 flex justify-center text-white text-l md:text-xl">
-                        <p className='font-bold'>User Flow</p>
+                        <p className='font-semibold'>User Flow</p>
                     </div>
                     <div className='md:inline-flex md:space-x-10 my-10 items-center justify-center w-full'>
                         <img className="md:w-3/4" src="/images/lingumate-useflow.png" alt="Lingumate" />
                     </div>
 
                     {/* <div className="mt-14 mb-4 md:mt-20 flex justify-center text-white text-l md:text-xl">
-                        <p className='font-bold'>Information Architecture</p>
+                        <p className='font-semibold'>Information Architecture</p>
                     </div>
                     <div className='md:inline-flex md:space-x-10 my-10 items-center justify-center w-full'>
                         <img className="md:w-3/4" src="/images/lingumate-IA.png" alt="Lingumate" />
@@ -221,7 +221,7 @@ export default function MyApp() {
 
                     <div className='py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
                         <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
-                            <p className="font-bold text-l md:text-xl">User Testing</p>
+                            <p className="font-semibold text-l md:text-xl">User Testing</p>
                             <div className="border-b-2 border-gray-400 w-16 ml-4" />
                         </div>
                         <div className="text-white text-l md:text-xl md:w-3/5">
@@ -261,7 +261,7 @@ export default function MyApp() {
 
                     <div className='py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
                         <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
-                            <p className="font-bold text-l md:text-xl">Design</p>
+                            <p className="font-semibold text-l md:text-xl">Design</p>
                             <div className="border-b-2 border-gray-400 w-16 ml-4" />
                         </div>
                         <div className="text-white text-l md:text-xl md:w-3/5">
@@ -269,14 +269,14 @@ export default function MyApp() {
                     </div>
 
                     <div className="mt-14 mb-4 flex justify-center text-white text-l md:text-xl">
-                        <p className='font-bold'>Color Palette & Typography</p>
+                        <p className='font-semibold'>Color Palette & Typography</p>
                     </div>
                     <div className='md:inline-flex md:space-x-10 my-10 items-center justify-center w-full'>
                         <img className="md:w-3/4" src="/images/lingumate-ui.png" alt="Lingumate" />
                     </div>
 
                     <div className="mt-14 mb-4 md:mt-20 flex justify-center text-white text-l md:text-xl">
-                        <p className='font-bold'>Logo Design</p>
+                        <p className='font-semibold'>Logo Design</p>
                     </div>
                     <div className='md:inline-flex md:space-x-10 my-10 items-center justify-center w-full'>
                         <img className="md:w-3/4" src="/images/lingumate-ui02.png" alt="Lingumate" />
@@ -284,7 +284,7 @@ export default function MyApp() {
 
                     <div className='pt-10 mt-10 items-center w-full'>
                         <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
-                            <p className="font-bold text-l md:text-xl">Final Deliverables</p>
+                            <p className="font-semibold text-l md:text-xl">Final Deliverables</p>
                             <div className="border-b-2 border-gray-400 w-16 ml-4" />
                         </div>
                         <p className='my-4 text-white text-l md:text-xl'>Key Factors to Consider</p>
@@ -315,7 +315,7 @@ export default function MyApp() {
 
                     <div className='py-4 md:inline-flex md:space-x-10 md:mt-10 items-center w-full'>
                         <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
-                            <p className="font-bold text-l md:text-xl">Evaluation</p>
+                            <p className="font-semibold text-l md:text-xl">Evaluation</p>
                             <div className="border-b-2 border-gray-400 w-16 ml-4" />
                         </div>
                         <div className="text-white text-l md:text-xl md:w-3/5">
@@ -329,7 +329,7 @@ export default function MyApp() {
 
                     <div className='py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
                         <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
-                            <p className="font-bold text-l md:text-xl">User Feedback</p>
+                            <p className="font-semibold text-l md:text-xl">User Feedback</p>
                             <div className="border-b-2 border-gray-400 w-16 ml-4" />
                         </div>
                         <div className="text-white text-l md:text-xl md:w-3/5">
@@ -348,7 +348,7 @@ export default function MyApp() {
 
                     <div className='py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
                         <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
-                            <p className="font-bold text-l md:text-xl">Final Deliverables 2</p>
+                            <p className="font-semibold text-l md:text-xl">Final Deliverables 2</p>
                             <div className="border-b-2 border-gray-400 w-16 ml-4" />
                         </div>
                     </div>
@@ -364,7 +364,7 @@ export default function MyApp() {
 
                     <div className='pt-10 mt-10 items-center w-full'>
                         <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
-                            <p className="font-bold text-l md:text-xl">What I've learned from this project</p>
+                            <p className="font-semibold text-l md:text-xl">What I've learned from this project</p>
                             <div className="border-b-2 border-gray-400 w-16 ml-4" />
                         </div>
                     </div>
@@ -376,19 +376,19 @@ export default function MyApp() {
 
                     <div className='pt-10 mt-10 items-center w-full'>
                         <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
-                            <p className="font-bold text-l md:text-xl">Limitations & Concerns</p>
+                            <p className="font-semibold text-l md:text-xl">Limitations & Concerns</p>
                             <div className="border-b-2 border-gray-400 w-16 ml-4" />
                         </div>
                     </div>
                     <div className='py-4 text-white text-l md:text-xl items-center w-full'>
-                        <p><span className="font-bold" style={{ color: "#A8A7C0" }}>Technical Feasibility</span> : Developing an AI-powered language learning
+                        <p><span className="font-semibold" style={{ color: "#A8A7C0" }}>Technical Feasibility</span> : Developing an AI-powered language learning
                             app comes with certain technical challenges. The implementation and integration of AI algorithms and models require substantial computational resources
                             and expertise. Ensuring seamless performance and responsiveness of the app, especially during real-time interactions and feedback, may require
                             efficient server infrastructure and optimized algorithms.</p>
-                        <p className='py-4'><span className="font-bold" style={{ color: "#A8A7C0" }}>Personalization and Data Privacy</span> : Personalization in an AI-powered language learning app
+                        <p className='py-4'><span className="font-semibold" style={{ color: "#A8A7C0" }}>Personalization and Data Privacy</span> : Personalization in an AI-powered language learning app
                             relies on collecting and analyzing user data, raising concerns about data privacy and security. App developers must prioritize privacy measures, transparent
                             data handling practices, and obtain user consent for data usage.</p>
-                        <p className='py-4'><span className="font-bold" style={{ color: "#A8A7C0" }}>Continuous Improvement</span> : AI should be continuously updated and improved based on user feedback
+                        <p className='py-4'><span className="font-semibold" style={{ color: "#A8A7C0" }}>Continuous Improvement</span> : AI should be continuously updated and improved based on user feedback
                             and evolving language trends. Regular updates, bug fixes, and adding new features and content ensure that the app remains relevant and effective for learners.</p>
                     </div>
 

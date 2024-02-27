@@ -6,7 +6,7 @@ export default function MyApp() {
       <div className='space-y-16 font-light flex flex-col'>
         <div className='md:inline-flex md:space-x-10 mt-10 items-center'>
           <div className='md:w-2/5'>
-            <p className="font-bold text-white text-xl md:text-2xl">
+            <p className="font-semibold text-white text-xl md:text-2xl">
               HealthPath
             </p>
             <p className="text-white text-l md:text-xl">UX / UI</p>
@@ -21,9 +21,9 @@ export default function MyApp() {
         <div className='md:mx-[5vw]'>
           <div className='md:inline-flex md:space-x-10 mt-10 items-center w-full'>
             <div className="text-white my-7 text-l md:text-xl md:w-2/5">
-              <p className="font-bold text-l md:text-xl">Duration</p>
+              <p className="font-semibold text-l md:text-xl">Duration</p>
               <p>15 weeks</p>
-              <p className="font-bold text-l md:text-xl mt-4">Role</p>
+              <p className="font-semibold text-l md:text-xl mt-4">Role</p>
               <p>UX Researcher / UX/UI Designer</p>
             </div>
             <div className="text-white text-l md:text-xl md:w-3/5">
@@ -40,7 +40,7 @@ export default function MyApp() {
 
           <div className='py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
             <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
-              <p className="font-bold text-l md:text-xl">Problem</p>
+              <p className="font-semibold text-l md:text-xl">Problem</p>
               <div className="border-b-2 border-gray-400 w-16 ml-4" />
             </div>
             <div className="text-white text-l md:text-xl md:w-3/5">
@@ -54,7 +54,7 @@ export default function MyApp() {
 
           <div className='py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
             <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
-              <p className="font-bold text-l md:text-xl">Challenge</p>
+              <p className="font-semibold text-l md:text-xl">Challenge</p>
               <div className="border-b-2 border-gray-400 w-16 ml-4" />
             </div>
             <div className="text-white text-l md:text-xl md:w-3/5">
@@ -67,7 +67,7 @@ export default function MyApp() {
 
           <div className='py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
             <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
-              <p className="font-bold text-l md:text-xl">Research</p>
+              <p className="font-semibold text-l md:text-xl">Research</p>
               <div className="border-b-2 border-gray-400 w-16 ml-4" />
             </div>
             <div className="text-white text-l md:text-xl md:w-3/5">
@@ -82,7 +82,7 @@ export default function MyApp() {
 
           <div className='py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
             <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
-              <p className="font-bold text-l md:text-xl">User Interview</p>
+              <p className="font-semibold text-l md:text-xl">User Interview</p>
               <div className="border-b-2 border-gray-400 w-16 ml-4" />
             </div>
             <div className="text-white text-l md:text-xl md:w-3/5">
@@ -94,18 +94,18 @@ export default function MyApp() {
             <div className="text-white my-7 text-l md:text-xl md:w-2/5">
             </div>
             <div className="bg-neutral-700 rounded-lg py-4 px-10 md:px-20 py-10 text-white text-l md:text-xl md:w-3/5">
-              <p className='font-bold' style={{ color: "#F37601" }}>Motivations</p>
+              <p className='font-semibold' style={{ color: "#F37601" }}>Motivations</p>
               <p>Focuses on understanding the factors that drive individuals to adopt and maintain healthy habits.</p>
-              <p className='font-bold mt-4' style={{ color: "#85CCA6" }}>Habits</p>
+              <p className='font-semibold mt-4' style={{ color: "#85CCA6" }}>Habits</p>
               <p>The development and reinforcement of healthy habits.</p>
-              <p className='font-bold mt-4 ' style={{ color: "#8787C1" }}>Goals</p>
+              <p className='font-semibold mt-4 ' style={{ color: "#8787C1" }}>Goals</p>
               <p>Setting and achieving health-related goals.</p>
             </div>
           </div>
 
           <div className='py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
             <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
-              <p className="font-bold text-l md:text-xl">Responses from Interviews</p>
+              <p className="font-semibold text-l md:text-xl">Responses from Interviews</p>
               <div className="border-b-2 border-gray-400 w-16 ml-4" />
             </div>
             <div className="bg-neutral-700 rounded-lg py-4 px-10 md:px-20 py-10 text-white text-l md:text-xl md:w-3/5">
@@ -135,7 +135,7 @@ export default function MyApp() {
 
           <div className='py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
             <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
-              <p className="font-bold text-l md:text-xl">User Surveys</p>
+              <p className="font-semibold text-l md:text-xl">User Surveys</p>
               <div className="border-b-2 border-gray-400 w-16 ml-4" />
             </div>
             <div className="bg-neutral-700 rounded-lg py-4 px-10 md:px-20 py-10 text-white text-l md:text-xl md:w-3/5">
@@ -150,7 +150,7 @@ export default function MyApp() {
 
           <div className='py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
             <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
-              <p className="font-bold text-l md:text-xl">Learning from Insights</p>
+              <p className="font-semibold text-l md:text-xl">Learning from Insights</p>
               <div className="border-b-2 border-gray-400 w-16 ml-4" />
             </div>
             <div className="text-white text-l md:text-xl md:w-3/5">
@@ -162,7 +162,7 @@ export default function MyApp() {
 
           <div className='py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
             <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
-              <p className="font-bold text-l md:text-xl">Solution</p>
+              <p className="font-semibold text-l md:text-xl">Solution</p>
               <div className="border-b-2 border-gray-400 w-16 ml-4" />
             </div>
             <div className="text-white text-l md:text-xl md:w-3/5">
@@ -184,7 +184,7 @@ export default function MyApp() {
 
         <div className='py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
             <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
-              <p className="font-bold text-l md:text-xl">Define</p>
+              <p className="font-semibold text-l md:text-xl">Define</p>
               <div className="border-b-2 border-gray-400 w-16 ml-4" />
             </div>
             <div className="text-white text-l md:text-xl md:w-3/5">
@@ -210,7 +210,7 @@ export default function MyApp() {
 
           <div className='py-10 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
             <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
-              <p className="font-bold text-l md:text-xl">Usability Testing & Iteration</p>
+              <p className="font-semibold text-l md:text-xl">Usability Testing & Iteration</p>
               <div className="border-b-2 border-gray-400 w-16 ml-4" />
             </div>
             <div className="text-white text-l md:text-xl md:w-3/5">
@@ -235,7 +235,7 @@ export default function MyApp() {
 
           <div className='py-10 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
             <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
-              <p className="font-bold text-l md:text-xl">Design & Branding</p>
+              <p className="font-semibold text-l md:text-xl">Design & Branding</p>
               <div className="border-b-2 border-gray-400 w-16 ml-4" />
             </div>
             <div className="text-white text-l md:text-xl md:w-3/5">
@@ -259,7 +259,7 @@ export default function MyApp() {
 
           <div className='pt-10 mt-10 items-center w-full'>
             <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
-              <p className="font-bold text-l md:text-xl">Final Design</p>
+              <p className="font-semibold text-l md:text-xl">Final Design</p>
               <div className="border-b-2 border-gray-400 w-16 ml-4" />
             </div>
             {/* <p className='my-4 text-white text-l md:text-xl'>Key Features</p> */}
@@ -270,7 +270,7 @@ export default function MyApp() {
 
 
           <div className='md:pt-7 text-white text-l md:text-xl items-center w-full'>
-            <p className='py-2 font-bold'>Goal Customization</p>
+            <p className='py-2 font-semibold'>Goal Customization</p>
             <p>Allows users to track their journey and visualize their data in a meaningful and informative way. This feature enables users
               to monitor their progress, identify trends, and make data-driven decisions to support their health and wellness goals.</p>
           </div>
@@ -279,7 +279,7 @@ export default function MyApp() {
           </div>
 
         <div className='pt-7 text-white text-l md:text-xl items-center w-full'>
-            <p className='py-2 font-bold'>Progress Record  &  Data Visualization</p>
+            <p className='py-2 font-semibold'>Progress Record  &  Data Visualization</p>
             <p>This feature allows users to tailor their health and wellness objectives according to their unique needs, preferences, and aspirations.
               By providing users with the ability to customize their goals, the app aims to create a personalized and empowering experience that fosters
               motivation and progress.</p>
@@ -290,7 +290,7 @@ export default function MyApp() {
           </div>
 
          <div className='pt-7 text-white text-l md:text-xl items-center w-full'>
-            <p className='py-2 font-bold'>Personalized Plan</p>
+            <p className='py-2 font-semibold'>Personalized Plan</p>
             <p>This feature aims to provide users with tailored guidance and recommendations based on their individual needs, preferences, and goals.
               This feature allows users to create a customized plan that aligns with their specific requirements and maximizes their chances of success
               in achieving their health and wellness objectives.</p>
@@ -304,7 +304,7 @@ export default function MyApp() {
 
 
           <div className='pt-7 text-white text-l md:text-xl items-center w-full'>
-            <p className='py-2 font-bold'>Reward & redemption</p>
+            <p className='py-2 font-semibold'>Reward & redemption</p>
             <p>This feature provides users with incentives, rewards, and a system for redeeming them based on their progress and engagement with the app.
               This feature aims to motivate and reinforce positive behaviors, ultimately encouraging users to stay committed to their health and wellness goals.</p>
           </div>
@@ -314,13 +314,13 @@ export default function MyApp() {
           </div>
 
           <div className='py-10 text-white text-l md:text-xl items-center w-full'>
-                        <p className='font-bold'>  What I’ve learned from this project?</p>
-                        <p className='mt-4 font-bold'>Listen to user needs</p>
+                        <p className='font-semibold'>  What I’ve learned from this project?</p>
+                        <p className='mt-4 font-semibold'>Listen to user needs</p>
                         <p>Understanding and meeting the needs of users is paramount in creating a health app that delivers value and meets their 
                         expectations. By attentively listening to their perspectives, I can incorporate these insights into the app's design and development. 
                         This process can result in an app that is well-received and frequently utilized by users, providing them with a meaningful and positive experience. 
                         In short, prioritizing the user's needs is key.</p>
-                        <p className='mt-4 font-bold'>Research helps a lot</p>
+                        <p className='mt-4 font-semibold'>Research helps a lot</p>
                         <p>Research is an indispensable aspect of the app development process. Apart from comprehending the users' needs, research can assist developers in 
                           shaping many other facets of the app's design and development. By delving deeper into the research, developers can obtain insights into the app's 
                           competitors, market trends, and design considerations. This knowledge can be used to create an app that is user-focused, unique, and meets the 

@@ -37,9 +37,9 @@ export default function MyApp() {
       </div>
       <div className="md:hidden"> {/* Mobile Version Only */}
         <p className="text-white my-7 text-xl leading-relaxed">
-          A <span className="font-bold">product designer</span> with a <span className="font-bold">visual design</span> background aiming to simplify your life.
+          A <span className="font-semibold">product designer</span> with a <span className="font-semibold">visual design</span> background aiming to simplify your life.
         </p>
-        <p className="text-white my-7 text-xl leading-relaxed">I am currently pursuing a<span className="font-bold"> Master’s degree in Interaction and UX/UI Design.</span></p>
+        <p className="text-white my-7 text-xl leading-relaxed">I am currently pursuing a<span className="font-semibold"> Master’s degree in Interaction and UX/UI Design.</span></p>
       </div>
     </div>
 
@@ -55,29 +55,38 @@ export default function MyApp() {
           <Link href="/HealthPath">
             <img src="/images/healthpath_cover.png" alt="HealthPath" className="w-full h-auto" />
           </Link>
-          <p className="mt-4 text-white font-bold lg:text-xl">HealthPath</p>
+          <p className="mt-4 text-white font-semibold lg:text-xl">HealthPath</p>
           <p className="text-white lg:text-l">UX / UI</p>
         </div>
         <div>
-          <Link href="/spotify">
-            <img src="/images/spotify_cover.png" alt="Spotify" className="w-full h-auto" />
+          <Link href="/CinemAR">
+            <img src="/images/CinemARCover.gif" alt="CinemAR" className="w-full h-auto" />
           </Link>
-          <p className="mt-4 text-white lg:text-xl font-bold">Spotify Case Study</p>
-          <p className="text-white lg:text-l">UX / UI</p>
+          <p className="mt-4 text-white lg:text-xl font-semibold">CinemAR</p>
+          <p className="text-white lg:text-l">AR | UX / UI</p>
         </div>
         
         <div>
           <Link href="/VRWorkspace">
             <img src="/images/VR_wsp_01.gif" alt="VRWorkspace" className="w-full h-auto" />
           </Link>
-          <p className="mt-4 text-white lg:text-xl font-bold">VR Workspace</p>
+          <p className="mt-4 text-white lg:text-xl font-semibold">VR Workspace</p>
           <p className="text-white lg:text-l">Spatial UX / UI</p>
         </div>
+
+        <div>
+          <Link href="/spotify">
+            <img src="/images/spotify_cover.png" alt="Spotify" className="w-full h-auto" />
+          </Link>
+          <p className="mt-4 text-white lg:text-xl font-semibold">Spotify Case Study</p>
+          <p className="text-white lg:text-l">UX / UI</p>
+        </div>
+
         <div>
           <Link href="/Lingumate">
             <img src="/images/lingumate-imgfinal.png" alt="Lingumate" className="w-full h-auto" />
           </Link>
-          <p className="mt-4 text-white lg:text-xl font-bold">Lingumate</p>
+          <p className="mt-4 text-white lg:text-xl font-semibold">Lingumate</p>
           <p className="text-white lg:text-l">UX / UI</p>
         </div>
     
@@ -86,24 +95,16 @@ export default function MyApp() {
           <Link href="/IG">
             <img src="/images/Cover_Black.png" alt="IG" className="w-full h-auto" />
           </Link>
-          <p className="mt-4 text-white lg:text-xl font-bold">IG Story Redesign</p>
+          <p className="mt-4 text-white lg:text-xl font-semibold">IG Story Redesign</p>
           <p className="text-white lg:text-l">UX / UI</p>
         </div>
         
 
         <div>
-          <Link href="/CinemAR">
-            <img src="/images/CinemARCover.gif" alt="CinemAR" className="w-full h-auto" />
-          </Link>
-          <p className="mt-4 text-white lg:text-xl font-bold">CinemAR</p>
-          <p className="text-white lg:text-l">AR | UX / UI</p>
-        </div>
-
-        <div>
           <Link href="/NAYA">
             <img src="/images/NAYA.gif" alt="NAYA" className="w-full h-auto" />
           </Link>
-          <p className="mt-4 text-white lg:text-xl font-bold">NAYA Redesign</p>
+          <p className="mt-4 text-white lg:text-xl font-semibold">NAYA Redesign</p>
           <p className="text-white lg:text-l">Rebranding</p>
         </div>
 
@@ -111,7 +112,7 @@ export default function MyApp() {
           <Link href="/audixaau">
             <img src="/images/zenith_cover.png" alt="AUDIxAAU" className="w-full h-auto" />
           </Link>
-          <p className="mt-4 text-white lg:text-xl font-bold">AUDI x ZENITH</p>
+          <p className="mt-4 text-white lg:text-xl font-semibold">AUDI x ZENITH</p>
           <p className="text-white lg:text-l">UX / UI</p>
         </div>
 

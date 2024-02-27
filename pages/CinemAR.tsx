@@ -6,7 +6,7 @@ export default function MyApp() {
             <div className='space-y-16 font-light flex flex-col'>
                 <div className='md:inline-flex md:space-x-10 mt-10 items-center'>
                     <div className='md:w-2/5'>
-                        <p className="font-bold text-white text-xl md:text-2xl">
+                        <p className="font-semibold text-white text-xl md:text-2xl">
                             CinemAR
                         </p>
                         <p className="text-white text-l md:text-xl">AR | UX / UI</p>
@@ -21,11 +21,11 @@ export default function MyApp() {
                 <div className='md:mx-[5vw]'>
                     <div className='md:inline-flex md:space-x-10 mt-10 items-center w-full'>
                         <div className="text-white my-7 text-l md:text-xl md:w-2/5">
-                            <p className="font-bold text-l md:text-xl">Duration</p>
+                            <p className="font-semibold text-l md:text-xl">Duration</p>
                             <p>12 weeks</p>
-                            <p className="font-bold text-l md:text-xl mt-4">Team</p>
+                            <p className="font-semibold text-l md:text-xl mt-4">Team</p>
                             <p>Nutcha / Punnath</p>
-                            <p className="font-bold text-l md:text-xl mt-4">Role</p>
+                            <p className="font-semibold text-l md:text-xl mt-4">Role</p>
                             <p>UX / UI Designer</p>
                         </div>
                         <div className="text-white text-l md:text-xl md:w-3/5">
@@ -40,7 +40,7 @@ export default function MyApp() {
 
                     <div className='py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
                         <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
-                            <p className="font-bold text-l md:text-xl">Overview</p>
+                            <p className="font-semibold text-l md:text-xl">Overview</p>
                             <div className="border-b-2 border-gray-400 w-16 ml-4" />
                         </div>
                         <div className="text-white text-l md:text-xl md:w-3/5">
@@ -58,7 +58,7 @@ export default function MyApp() {
 
                     <div className='py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
                         <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
-                            <p className="font-bold text-l md:text-xl">Research</p>
+                            <p className="font-semibold text-l md:text-xl">Research</p>
                             <div className="border-b-2 border-gray-400 w-16 ml-4" />
                         </div>
                         <div className="text-white text-l md:text-xl md:w-3/5">
@@ -75,7 +75,7 @@ export default function MyApp() {
                     </div>
 
                     <div className='py-4 md:pb-10 text-white text-l md:text-xl items-center w-full'>
-                        <p className='py-2 font-bold'>What makes <span style={{ color: "#BC615F" }}>unforgettable moments</span> so uniquely <span style={{ color: "#BC615F" }}>special</span> and <span style={{ color: "#BC615F" }}>valued</span> by people?</p>
+                        <p className='py-2 font-semibold'>What makes <span style={{ color: "#BC615F" }}>unforgettable moments</span> so uniquely <span style={{ color: "#BC615F" }}>special</span> and <span style={{ color: "#BC615F" }}>valued</span> by people?</p>
                         <p>Unforgettable moments hold a special place in people's hearts as they provide a source of meaningful and long-lasting memories.
                             In the realm of movies, these memories are often formed through the impactful storytelling, evocative emotions, and profound impact that a film can have on its
                             audience. When a movie deeply moves an individual, it has the power to stay with them for an extended period and become a cherished and unforgettable experience.
@@ -100,7 +100,7 @@ export default function MyApp() {
 
                     <div className='pt-10 pb-20 md:inline-flex md:space-x-10 items-center w-full'>
                         <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
-                            <p className="font-bold text-l md:text-xl">Extract Insights</p>
+                            <p className="font-semibold text-l md:text-xl">Extract Insights</p>
                             <div className="border-b-2 border-gray-400 w-16 ml-4" />
                         </div>
                         <div className="text-white text-l md:text-xl md:w-3/5">
@@ -131,7 +131,7 @@ export default function MyApp() {
 
                     <div className='py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
                         <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
-                            <p className="font-bold text-l md:text-xl">Ideation</p>
+                            <p className="font-semibold text-l md:text-xl">Ideation</p>
                             <div className="border-b-2 border-gray-400 w-16 ml-4" />
                         </div>
                     </div>
@@ -140,7 +140,7 @@ export default function MyApp() {
                         <img className="md:w-2/3" src="/images/cinemar-affinity.png" alt="CinemAR" />
                     </div>
 
-                    <div className='text-white font-bold text-l md:text-xl md:inline-flex md:space-x-10 mt-10 items-center justify-center w-full'>
+                    <div className='text-white font-semibold text-l md:text-xl md:inline-flex md:space-x-10 mt-10 items-center justify-center w-full'>
                         <p>Affinity Map</p>
                     </div>
 
@@ -155,7 +155,7 @@ export default function MyApp() {
                         <img className="md:w-2/3" src="/images/cinemar-userscenarios.png" alt="CinemAR" />
                     </div>
 
-                    <div className='text-white font-bold text-l md:text-xl md:inline-flex md:space-x-10 mt-10 items-center justify-center w-full'>
+                    <div className='text-white font-semibold text-l md:text-xl md:inline-flex md:space-x-10 mt-10 items-center justify-center w-full'>
                         <p>Users Scenarios</p>
                     </div>
 
@@ -166,7 +166,7 @@ export default function MyApp() {
 
                     <div className='py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
                         <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
-                            <p className="font-bold text-l md:text-xl">Idea Sketches</p>
+                            <p className="font-semibold text-l md:text-xl">Idea Sketches</p>
                             <div className="border-b-2 border-gray-400 w-16 ml-4" />
                         </div>
                     </div>
@@ -182,7 +182,7 @@ export default function MyApp() {
 
                     <div className='py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
                         <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
-                            <p className="font-bold text-l md:text-xl">Concept Refinement</p>
+                            <p className="font-semibold text-l md:text-xl">Concept Refinement</p>
                             <div className="border-b-2 border-gray-400 w-16 ml-4" />
                         </div>
                     </div>
@@ -224,7 +224,7 @@ export default function MyApp() {
 
                     <div className='py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
                         <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
-                            <p className="font-bold text-l md:text-xl">Design & Prototype</p>
+                            <p className="font-semibold text-l md:text-xl">Design & Prototype</p>
                             <div className="border-b-2 border-gray-400 w-16 ml-4" />
                         </div>
                     </div>
@@ -244,7 +244,7 @@ export default function MyApp() {
 
                     <div className='py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
                         <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
-                            <p className="font-bold text-l md:text-xl">User Testing & Evaluation</p>
+                            <p className="font-semibold text-l md:text-xl">User Testing & Evaluation</p>
                             <div className="border-b-2 border-gray-400 w-16 ml-4" />
                         </div>
                         <div className="text-white text-l md:text-xl md:w-3/5">
@@ -263,7 +263,7 @@ export default function MyApp() {
 
                     <div className='py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
                         <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
-                            <p className="font-bold text-l md:text-xl">Hi-fidelity Wireframe</p>
+                            <p className="font-semibold text-l md:text-xl">Hi-fidelity Wireframe</p>
                             <div className="border-b-2 border-gray-400 w-16 ml-4" />
                         </div>
                     </div>
@@ -292,7 +292,7 @@ export default function MyApp() {
 
                     <div className='py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
                         <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
-                            <p className="font-bold text-l md:text-xl">Results</p>
+                            <p className="font-semibold text-l md:text-xl">Results</p>
                             <div className="border-b-2 border-gray-400 w-16 ml-4" />
                         </div>
                     </div>
@@ -301,7 +301,7 @@ export default function MyApp() {
 
 
                     <div className='py-4 md:pb-10 text-white text-l md:text-xl items-center w-full'>
-                        <p className='font-bold'>  What I’ve learned from this project?</p>
+                        <p className='font-semibold'>  What I’ve learned from this project?</p>
                         <p className='my-4'>During this project, I had the opportunity to delve into various aspects of the application and explore ways to expand its
                             usage beyond its initial scope. This involved brainstorming and implementing new features and functionalities.</p>
                         <p className='my-4'>Engaging in this project provided me with the chance to explore and broaden the application's usage, while incorporating augmented reality
@@ -313,15 +313,15 @@ export default function MyApp() {
 
                     <div className='py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
                         <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
-                            <p className="font-bold text-l md:text-xl">Limitation & Concern</p>
+                            <p className="font-semibold text-l md:text-xl">Limitation & Concern</p>
                             <div className="border-b-2 border-gray-400 w-16 ml-4" />
                         </div>
                     </div>
                     <div className='py-4 md:pb-10 text-white text-l md:text-xl items-center w-full'>
-                        <p className='mb-4 font-bold'> Social Interactions and Offline Engagement</p>
+                        <p className='mb-4 font-semibold'> Social Interactions and Offline Engagement</p>
                         <p className='my-4'>Excessive reliance on smartphones in outdoor settings can lead individuals to feel disconnected from the real world, raising concerns about reduced social
                             interactions and limited engagement in offline experiences.</p>
-                        <p className='font-bold'> Privacy</p>
+                        <p className='font-semibold'> Privacy</p>
                         <p className='my-4'>Users may have concerns about the app's access to their device's camera and the potential for unauthorized recording or capturing of personal moments.</p>
                         <p>The need for clear and transparent privacy policies to address user concerns about data security, consent, and control over their captured media.</p>
                     </div>
