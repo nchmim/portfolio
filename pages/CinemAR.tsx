@@ -80,23 +80,31 @@ export default function MyApp() {
                             In the realm of movies, these memories are often formed through the impactful storytelling, evocative emotions, and profound impact that a film can have on its
                             audience. When a movie deeply moves an individual, it has the power to stay with them for an extended period and become a cherished and unforgettable experience.
                         </p>
+                        <p className='pt-4'>This question is important since I aim to understand its essence thoroughly. From interviewing people about their memorable experiences, I've identified a ranking 
+                            of influence on these moments. Emotion emerges as the most crucial factor at the top of this ranking.
+                        </p>
                     </div>
 
                     <div className='md:py-4 md:inline-flex md:space-x-10 mt-10 items-center justify-center w-full'>
-                        <img className="md:w-5/6" src="/images/cinemar01.png" alt="CinemAR" />
+                        <img className="md:w-5/6" src="/images/cinemar03.png" alt="CinemAR" />
                     </div>
 
-                    <div className='md:py-20 md:inline-flex md:space-x-10 mt-10 items-center justify-center w-full'>
-                        <img className="md:w-2/3" src="/images/cinemar02.png" alt="CinemAR" />
+                    <div className='md:pt-20 md:inline-flex md:space-x-10 mt-10 items-center justify-center w-full'>
+                        <img className="md:w-2/5" src="/images/cinemar01.png" alt="CinemAR" />
                     </div>
 
-                    <div className='py-4 md:pb-10 text-white text-l md:text-xl items-center w-full'>
+                    <div className='pt-20 md:pb-10 text-white text-l md:text-xl items-center w-full'>
                         <p>Based on the responses from user research, a hierarchy of interdependent components was formed, with emotion identified as the overarching factor
                             influenced by other components. The components in question are location, music, people, and time, all of which are ranked below emotion in the
                             hierarchy. Furthermore, these elements have lateral and pseudo-influencing relationships with one another. Finally, the experience produced by the
                             interaction of these components influences memory.
                         </p>
                     </div>
+
+                    <div className='md:pb-20 md:inline-flex md:space-x-10 mt-10 items-center justify-center w-full'>
+                        <img className="md:w-2/3" src="/images/cinemar02.png" alt="CinemAR" />
+                    </div>
+
 
                     <div className='pt-10 pb-20 md:inline-flex md:space-x-10 items-center w-full'>
                         <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
