@@ -75,18 +75,18 @@ export default function MyApp() {
         </div>
 
         <div>
-          <Link href="/spotify">
-            <img src="/images/spotify_cover.png" alt="Spotify" className="w-full h-auto" />
-          </Link>
-          <p className="mt-4 text-white lg:text-xl font-semibold">Spotify Case Study</p>
-          <p className="text-white lg:text-l">UX / UI</p>
-        </div>
-
-        <div>
           <Link href="/Lingumate">
             <img src="/images/lingumate-imgfinal.png" alt="Lingumate" className="w-full h-auto" />
           </Link>
           <p className="mt-4 text-white lg:text-xl font-semibold">Lingumate</p>
+          <p className="text-white lg:text-l">AI | UX / UI</p>
+        </div>
+
+        <div>
+          <Link href="/spotify">
+            <img src="/images/spotify_cover.png" alt="Spotify" className="w-full h-auto" />
+          </Link>
+          <p className="mt-4 text-white lg:text-xl font-semibold">Spotify Case Study</p>
           <p className="text-white lg:text-l">UX / UI</p>
         </div>
     
