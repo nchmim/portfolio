@@ -48,11 +48,10 @@ export default function MyApp() {
                                 What makes movies so <span style={{ color: "#BC615F" }}>special</span> ?
                             </p>
                             <p className='font-medium'>Why do people <span style={{ color: "#BC615F" }}>enjoy</span> watching movies ?</p>
-                            <p className='py-4'>  A movie can be special for its storytelling, cinematography, acting, and emotional resonance with its audience.
-                                CinemAR is an augmented reality product that allows users to visually experience movie scenes and capture themselves within
-                                the scene at the exact location where it was filmed. This app opens up new opportunities for improving travel experiences
-                                and deepening understanding of the movie. CinemAR also functions as a platform for creative expression and social interaction,
-                                allowing users to connect with and share their unique moment with others who share their love of movies and immersive experiences.</p>
+                            <p className='py-4'>  Movies are a medium that combine storytelling, visuals, and emotions to offer both 
+                            entertainment and escape. They provide a window into different worlds, making them an engaging way to 
+                            experience stories, learn about diverse perspectives, and connect with others. Whether it's through laughter, 
+                            tears, or suspense, films have the unique ability to resonate with audiences, making them a universal form of art and communication.</p>
                         </div>
                     </div>
 
@@ -222,12 +221,20 @@ export default function MyApp() {
                         <img className="w-full" src="/images/cinemar-ideasketches05.png" alt="CinemAR" />
                     </div>
 
-                    <div className='py-4 md:pb-24 text-white text-l md:text-xl items-center w-full'>
+                    <div className='py-4 md:pb-10 text-white text-l md:text-xl items-center w-full'>
                         <p>In addition to the AR photo filter, we intend to incorporate additional features to enhance the overall appeal of the application. One such feature is the <span className='font-medium' style={{ color: "#BC615F" }}>tour guide</span>,
                             which will assist users in navigating to specific movie locations with precision and accuracy. Furthermore, we aim to introduce the <span className='font-medium' style={{ color: "#BC615F" }}>AR movie trivia</span> feature,
                             encouraging users to actively participate and unlock unique photo filters associated with each location. These additional functionalities are designed to elevate
                             user engagement and make the overall app experience even more captivating and immersive.
                         </p>
+                    </div>
+
+                    <div className='md:inline-flex md:space-x-10 my-10 items-center justify-center w-full'>
+                        <img className="md:w-3/4" src="/images/cinemar-userscenarios02.png" alt="CinemAR" />
+                    </div>
+
+                    <div className='py-4 md:pb-10 text-white text-l md:text-xl items-center w-full'>
+                        <p>With the finalized features, we created a user flow to map out and visualize the user journey for the design process.</p>
                     </div>
 
                     <div className='py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
@@ -250,23 +257,70 @@ export default function MyApp() {
                     </div>
 
 
-                    <div className='py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
-                        <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
-                            <p className="font-semibold text-l md:text-xl">User Testing & Evaluation</p>
+                    <div className='pb-4 md:inline-flex md:space-x-10 items-center w-full'>
+                        <div className="text-white mt-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
+                            <p className="font-semibold text-l md:text-xl">User Testing</p>
                             <div className="border-b-2 border-gray-400 w-16 ml-4" />
-                        </div>
-                        <div className="text-white text-l md:text-xl md:w-3/5">
-                            <p>
-                                To carry out the evaluation phase, we implemented a task-oriented usability testing approach combined with the Retrospective Think-Aloud
-                                method. This research methodology enabled us to gather user feedback in real-time on both our concept and prototype, specifically from our
-                                target user demographic. Initially, we conducted tests with a small group of participants and incorporated their feedback to enhance our
-                                digital prototype.
-                            </p>
                         </div>
                     </div>
 
-                    <div className='md:inline-flex md:space-x-10 my-10 md:my-20 items-center justify-center w-full'>
-                        <img className="w-full" src="/images/cinemar-testing01.png" alt="CinemAR" />
+                    <div className='py-4 md:pb-10 text-white text-l md:text-xl items-center w-full'>
+                        <p>To conduct the evaluation phase, we implemented usability testing through the A/B testing method. 
+                            This approach allowed us to determine the effects of different homepage features on user behavior, 
+                            specifically how they influenced users' ability to quickly and easily find relevant content or 
+                            experiences within the app. The objectives of this A/B testing were to assess the ease and speed 
+                            with which users could access content, the significance of weather information, and how categorization 
+                            and proximity facilitate content discovery. Additionally, we aimed to gauge user preferences and 
+                            engagement levels, as well as the overall impact on their decision-making processes.</p>
+                    </div>
+
+                    <div className="py-10 grid grid-cols-1 md:grid-cols-2 gap-y-7 gap-x-4">
+                        <img className="w-full" src="/images/cinemar-ABtesting01.png" alt="CinemAR" />
+                        <img className="w-full" src="/images/cinemar-ABtesting02.png" alt="CinemAR" />
+                    </div>
+
+                    <div className='py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
+                        <div className="text-white mt-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
+                            <p className="font-semibold text-l md:text-xl">Key Performance Indicators (KPIs)</p>
+                            <div className="border-b-2 border-gray-400 w-16 ml-4" />
+                        </div>
+                    </div>
+
+
+                    <div className='pt-4 md:pb-10 text-white text-l md:text-xl items-center w-full'>
+                        <p><span className="font-semibold text-white">Time to First Interaction:</span> Measure the time it takes a user from landing on the homepage to 
+                            their first click interaction. A lower time indicates quicker content access.</p>
+                    </div>
+
+                    <div className='pb-4 md:pb-10 text-white text-l md:text-xl items-center w-full'>
+                        <p><span className="font-semibold text-white">Customer Satisfaction (CSAT):</span> Measure user satisfaction with the app. Surveys to collect the direct insights from users about their experience.</p>
+                    </div>
+
+
+                    <div className='pb-4 md:inline-flex md:space-x-10 items-center w-full'>
+                        <div className="text-white mt-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
+                            <p className="font-semibold text-l md:text-xl">Testing Results</p>
+                            <div className="border-b-2 border-gray-400 w-16 ml-4" />
+                        </div>
+                    </div>
+
+                    <div className='py-2 md:pb-10 text-white text-l md:text-xl items-center w-full'>
+                        <p>We conducted A/B testing with 10 participants, 5 for each version. Here are the average times it took for them to make their first click interaction.</p>
+                    </div>
+
+                    {/* <div className='pb-4 md:inline-flex md:space-x-10 items-center w-full'>
+                        <div className="text-white mt-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
+                            <p className="font-semibold text-l md:text-xl">Result on Customer Satisfaction (CSAT)</p>
+                            <div className="border-b-2 border-gray-400 w-16 ml-4" />
+                        </div>
+                    </div> */}
+
+<div className='md:inline-flex md:space-x-10 my-10 items-center justify-center w-full'>
+                        <img className="md:w-3/5" src="/images/cinemar-ABtestingresult.png" alt="CinemAR" />
+                    </div>
+
+                    <div className='md:inline-flex md:space-x-10 my-10 items-center justify-center w-full'>
+                        <img className="md:w-3/5" src="/images/cinemar-ABtestingresult02.png" alt="CinemAR" />
                     </div>
 
                     <div className='py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
@@ -297,16 +351,12 @@ export default function MyApp() {
                         ></iframe>
                     </div>
 
-
-                    <div className='py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
-                        <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
+                    <div className='pb-4 md:inline-flex md:space-x-10 items-center w-full'>
+                        <div className="text-white mt-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
                             <p className="font-semibold text-l md:text-xl">Results</p>
                             <div className="border-b-2 border-gray-400 w-16 ml-4" />
                         </div>
                     </div>
-
-
-
 
                     <div className='py-4 md:pb-10 text-white text-l md:text-xl items-center w-full'>
                         <p className='font-semibold'>  What I’ve learned from this project?</p>
@@ -319,19 +369,17 @@ export default function MyApp() {
                             me to gain valuable insights into the world of user experience, augmented reality, and application development.</p>
                     </div>
 
-                    <div className='py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
-                        <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
-                            <p className="font-semibold text-l md:text-xl">Limitation & Concern</p>
+                    <div className='pb-4 md:inline-flex md:space-x-10 items-center w-full'>
+                        <div className="text-white mt-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
+                            <p className="font-semibold text-l md:text-xl">Concern</p>
                             <div className="border-b-2 border-gray-400 w-16 ml-4" />
                         </div>
                     </div>
+
                     <div className='py-4 md:pb-10 text-white text-l md:text-xl items-center w-full'>
                         <p className='mb-4 font-semibold'> Social Interactions and Offline Engagement</p>
                         <p className='my-4'>Excessive reliance on smartphones in outdoor settings can lead individuals to feel disconnected from the real world, raising concerns about reduced social
                             interactions and limited engagement in offline experiences.</p>
-                        <p className='font-semibold'> Privacy</p>
-                        <p className='my-4'>Users may have concerns about the app's access to their device's camera and the potential for unauthorized recording or capturing of personal moments.</p>
-                        <p>The need for clear and transparent privacy policies to address user concerns about data security, consent, and control over their captured media.</p>
                     </div>
 
 
