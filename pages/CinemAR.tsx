@@ -265,10 +265,9 @@ export default function MyApp() {
                     </div>
 
                     <div className='py-4 md:pb-10 text-white text-l md:text-xl items-center w-full'>
-                        <p>To conduct the evaluation phase, we implemented usability testing through the A/B testing method. 
-                            This approach allowed us to determine the effects of different homepage features on user behavior, 
+                        <p>To conduct the evaluation phase, we implemented usability testing to determine the effects of different homepage features on user behavior, 
                             specifically how they influenced users' ability to quickly and easily find relevant content or 
-                            experiences within the app. The objectives of this A/B testing were to assess the ease and speed 
+                            experiences within the app. The objectives of this user testing were to assess the ease 
                             with which users could access content, the significance of weather information, and how categorization 
                             and proximity facilitate content discovery. Additionally, we aimed to gauge user preferences and 
                             engagement levels, as well as the overall impact on their decision-making processes.</p>
@@ -277,23 +276,6 @@ export default function MyApp() {
                     <div className="py-10 grid grid-cols-1 md:grid-cols-2 gap-y-7 gap-x-4">
                         <img className="w-full" src="/images/cinemar-ABtesting01.png" alt="CinemAR" />
                         <img className="w-full" src="/images/cinemar-ABtesting02.png" alt="CinemAR" />
-                    </div>
-
-                    <div className='py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
-                        <div className="text-white mt-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
-                            <p className="font-semibold text-l md:text-xl">Key Performance Indicators (KPIs)</p>
-                            <div className="border-b-2 border-gray-400 w-16 ml-4" />
-                        </div>
-                    </div>
-
-
-                    <div className='pt-4 md:pb-10 text-white text-l md:text-xl items-center w-full'>
-                        <p><span className="font-semibold text-white">Time to First Interaction:</span> Measure the time it takes a user from landing on the homepage to 
-                            their first click interaction. A lower time indicates quicker content access.</p>
-                    </div>
-
-                    <div className='pb-4 md:pb-10 text-white text-l md:text-xl items-center w-full'>
-                        <p><span className="font-semibold text-white">Customer Satisfaction (CSAT):</span> Measure user satisfaction with the app. Surveys to collect the direct insights from users about their experience.</p>
                     </div>
 
 
@@ -305,23 +287,17 @@ export default function MyApp() {
                     </div>
 
                     <div className='py-2 md:pb-10 text-white text-l md:text-xl items-center w-full'>
-                        <p>We conducted A/B testing with 10 participants, 5 for each version. Here are the average times it took for them to make their first click interaction.</p>
-                    </div>
-
-                    {/* <div className='pb-4 md:inline-flex md:space-x-10 items-center w-full'>
-                        <div className="text-white mt-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
-                            <p className="font-semibold text-l md:text-xl">Result on Customer Satisfaction (CSAT)</p>
-                            <div className="border-b-2 border-gray-400 w-16 ml-4" />
-                        </div>
-                    </div> */}
-
-<div className='md:inline-flex md:space-x-10 my-10 items-center justify-center w-full'>
-                        <img className="md:w-3/5" src="/images/cinemar-ABtestingresult.png" alt="CinemAR" />
+                        <p>We conducted user testing with 5 participants for both versions. Here are the feedback from the interviews.</p>
                     </div>
 
                     <div className='md:inline-flex md:space-x-10 my-10 items-center justify-center w-full'>
                         <img className="md:w-3/5" src="/images/cinemar-ABtestingresult02.png" alt="CinemAR" />
                     </div>
+
+                    <div className='py-2 md:pb-10 text-white text-l md:text-xl items-center w-full'>
+                        <p>Interview feedback highlighted the significance of different elements. It was noted that Version B, distinguished by its user-friendly access to categories and the presentation of nearby locations, garnered more positive responses.</p>
+                    </div>
+
 
                     <div className='py-4 md:inline-flex md:space-x-10 mt-10 items-center w-full'>
                         <div className="text-white my-7 text-l md:text-xl md:w-2/5 inline-flex items-center">
